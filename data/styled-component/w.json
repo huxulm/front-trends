@@ -1,0 +1,39 @@
+{
+  "start": "2024-08-23",
+  "end": "2024-08-30",
+  "package": "styled-component",
+  "downloads": [
+    {
+      "downloads": 333,
+      "day": "2024-08-23"
+    },
+    {
+      "downloads": 180,
+      "day": "2024-08-24"
+    },
+    {
+      "downloads": 155,
+      "day": "2024-08-25"
+    },
+    {
+      "downloads": 333,
+      "day": "2024-08-26"
+    },
+    {
+      "downloads": 389,
+      "day": "2024-08-27"
+    },
+    {
+      "downloads": 338,
+      "day": "2024-08-28"
+    },
+    {
+      "downloads": 0,
+      "day": "2024-08-29"
+    },
+    {
+      "downloads": 0,
+      "day": "2024-08-30"
+    }
+  ]
+}

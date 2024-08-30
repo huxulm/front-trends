@@ -1,0 +1,37 @@
+{
+  "name": "front-trends",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "scrap": "node ./scrap/index.js"
+  },
+  "dependencies": {
+    "@qttdev/utils": "^0.0.2",
+    "@types/d3": "^7.4.3",
+    "d3": "^7.9.0",
+    "next": "^14.1.1",
+    "npm-stats-api": "^2.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.1",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "turbo": "^2.1.0",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@9.7.1"
+}

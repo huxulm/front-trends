@@ -1,0 +1,16 @@
+{
+  "name": "scrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "proxy": "http://127.0.0.1:8889",
+  "dependencies": {
+    "rimraf": "^6.0.1",
+    "undici": "^6.19.8"
+  }
+}

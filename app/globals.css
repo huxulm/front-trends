@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+    stroke: #8956ff;
+    fill: rgba(137, 86, 255, .2);
+    font-family: 'Roboto', sans-serif;
+}
+.line-path {
+    fill: none;
+    stroke-width: 2;
+}
+.axis-label {
+    font-size: 1rem;
+    stroke: none;
+    fill: purple;
+}
+.tick {
+    stroke: none;
+    fill: purple;
+}
