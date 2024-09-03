@@ -1,0 +1,5 @@
+packages:
+  # direct subdir of package
+  - 'scrap'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
