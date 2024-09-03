@@ -28,6 +28,10 @@ export interface SelectionRef {
   rect: Selection<SVGRectElement, unknown, null, undefined>;
   mouseG: Selection<SVGGElement, unknown, null, undefined>;
   brushG: Selection<SVGGElement, unknown, null, undefined>;
+  brushChartG: Selection<BaseType | SVGPathElement, {
+    name: string;
+    downloads: DataShape[];
+}, SVGGElement, unknown>;
 }
 
 export interface RenderFunction {
@@ -86,7 +90,6 @@ export const render: RenderFunction = ({
     }
     const [x0, x1] = selection.map(xScaleBrush.invert);
     onBrush([x0, x1]);
-    console.log("brushed", x0, x1);
   }
 
   const brush = brushX()
@@ -95,6 +98,8 @@ export const render: RenderFunction = ({
       [width, height],
     ])
     .on("start brush end", brushed);
+  
+  const brushTransform = `translate(0, ${chartHeight * 0.04})`;
 
   const color = scaleOrdinal(schemeCategory10).domain(data.map((d) => d.name));
 
@@ -267,10 +272,12 @@ export const render: RenderFunction = ({
   });
 
   const renderBrushChart = (
-    selection: Selection<SVGGElement, unknown, null, undefined>
+    selection: Selection<BaseType, unknown, null, undefined>
   ) => {
-    selection
+    selectionRef.brushChartG = selection
       .append("g")
+      .attr("class", "brush-chart")
+      .attr("transform", brushTransform)
       .selectAll("path")
       .data(data)
       .join("path")
@@ -280,14 +287,17 @@ export const render: RenderFunction = ({
       .attr("stroke-width", 1);
   };
 
+  // brush chart
+  svg.call(renderBrushChart);
+
   // brush
   const brushG = svg
     .append("g")
     .attr("class", "brush")
-    .attr("transform", "translate(0, 40)")
+    .attr("transform", brushTransform)
     .call(brush)
     .on("mousedown touchstart", function beforebrushstarted(event) {
-      const dx = chartWidth * 0.2; //xScale(new Date(data[0].downloads[0].day)) - xScale(new Date(data[0].downloads[1].day)); // Use a fixed width when recentering.
+      const dx = chartWidth * 0.2;
       const [[cx]] = pointers(event);
       const [x0, x1] = [cx - dx / 2, cx + dx / 2];
       const [X0, X1] = xScale.range();
@@ -297,8 +307,7 @@ export const render: RenderFunction = ({
         x1 > X1 ? [X1 - dx, X1] : x0 < X0 ? [X0, X0 + dx] : [x0, x1]
       );
     })
-    .call(renderBrushChart);
-
+  
   selectionRef.brushG = brushG;
   return selectionRef;
 };
@@ -354,6 +363,11 @@ export const refresh = ({
         .x((d) => xScale(xValue(d)))
         .y((d) => yScale(yValue(d)))(v.downloads)
     );
+
+  // refresh brush chart
+  selectionRef.brushChartG.attr("d", (v) => line<DataShape>()
+  .x((d) => xScaleBrush(xValue(d)))
+  .y((d) => yScaleBrush(yValue(d)))(v.downloads))
 
   // mouse listeners
   selectionRef.rect.on("mouseover", function (e) {

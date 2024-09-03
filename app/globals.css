@@ -21,6 +21,12 @@ svg {
     fill: purple;
 }
 .brush {
-    fill: rgba(230, 230, 230, 0.998);
-    stroke: rgba(24, 24, 24, 0.329)
+    fill: rgba(129, 174, 248, 0.1);
+    stroke: none;
+}
+.brush-chart path {
+    stroke-width: .8;
+}
+.brush .selection {
+    fill: url(#brush_pattern);
 }

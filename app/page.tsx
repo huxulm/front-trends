@@ -11,7 +11,7 @@ import { DataShape, refresh, render, SelectionRef } from "../components/viz";
 import { useParentSize } from "@visx/responsive";
 import { scaleLinear, scaleUtc } from "d3-scale";
 import pkgs from "./pkg.json";
-import { Selection } from "d3-selection"
+import { Selection } from "d3-selection";
 import { min, max } from "d3-array";
 import { utcDay, utcMonth } from "d3-time";
 
@@ -47,7 +47,9 @@ const DownloadCard = ({
 }) => {
   const ref = useRef<SVGSVGElement>(null);
   const { parentRef, width, height } = useParentSize({ debounceTime: 150 });
-  const [brushSelection, setBrushSelection] = useState<[Date, Date] | null>(null)
+  const [brushSelection, setBrushSelection] = useState<[Date, Date] | null>(
+    null
+  );
   const filteredData = useMemo(() => {
     return data.map((item) => ({
       ...item,
@@ -64,10 +66,12 @@ const DownloadCard = ({
   }, []);
 
   const xDomain = useMemo(() => {
-    return brushSelection ? brushSelection : [
-      min(data, (d) => min(d.downloads, (v) => new Date(v.day))),
-      max(data, (d) => max(d.downloads, (v) => new Date(v.day))),
-    ];
+    return brushSelection
+      ? brushSelection
+      : [
+          min(data, (d) => min(d.downloads, (v) => new Date(v.day))),
+          max(data, (d) => max(d.downloads, (v) => new Date(v.day))),
+        ];
   }, [brushSelection]);
 
   const yDomain = useMemo(() => {
@@ -123,7 +127,6 @@ const DownloadCard = ({
   }, []);
   const selectionRef = useRef<SelectionRef | null>(null);
   if (!selectionRef.current) {
-
   }
   useEffect(() => {
     if (width > 0 && !selectionRef.current) {
@@ -143,7 +146,7 @@ const DownloadCard = ({
         xValue: xValueFn(),
         yValue: yValueFn(),
       });
-    } else if (selectionRef && selectionRef.current){
+    } else if (selectionRef && selectionRef.current) {
       refresh({
         selectionRef: selectionRef.current,
         xScale,
@@ -155,12 +158,39 @@ const DownloadCard = ({
         ticks,
         xValue: xValueFn(),
         yValue: yValueFn(),
-      })
+      });
     }
-  }, [parentRef, width, height, xScale, yScale, xScaleBrush, yScaleBrush, filteredData, ticks]);
+  }, [
+    parentRef,
+    width,
+    height,
+    xScale,
+    yScale,
+    xScaleBrush,
+    yScaleBrush,
+    filteredData,
+    ticks,
+  ]);
   return (
     <div ref={parentRef} className="w-full h-full">
-      <svg width={width} height={height} fill="none" />
+      <svg width={width} height={height} fill="none">
+        <pattern
+          id="brush_pattern"
+          width="8"
+          height="8"
+          patternUnits="userSpaceOnUse"
+        >
+          <path
+            className="brush-pattern-line"
+            d="M 0,8 l 8,-8 M -2,2 l 4,-4
+             M 6,10 l 4,-4"
+            stroke="#2e7af3"
+            stroke-width="1"
+            stroke-linecap="square"
+            shape-rendering="auto"
+          ></path>
+        </pattern>
+      </svg>
     </div>
   );
 };
@@ -185,7 +215,7 @@ export default function Home() {
   return (
     <div className="p-2 flex flex-wrap justify-center items-center min-h-screen min-w-full">
       {stats.length === pkgs.length && (
-        <div style={{ width: "80vw", height: "90vh" }}>
+        <div style={{ width: "50vw", height: "50vh" }}>
           <DownloadCard
             ticks={
               type === "w"
