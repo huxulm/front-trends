@@ -45,9 +45,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: fetch-npm-stat
+      - name: Fetch npm stats
         run: |
           pnpm run scrap
+
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build with Next.js
         run: pnpm run build
