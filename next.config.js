@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: process.env.NODE_ENV === "development" ? "standalone" : "export",
+  images: {unoptimized: true},basePath: "/front-trends",output: "export",
 };
 
 module.exports = nextConfig;
