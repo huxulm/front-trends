@@ -193,9 +193,9 @@ const DownloadCard = ({
           d="M 0,8 l 8,-8 M -2,2 l 4,-4
              M 6,10 l 4,-4"
           stroke="#2e7af3"
-          stroke-width="1"
-          stroke-linecap="square"
-          shape-rendering="auto"
+          strokeWidth="1"
+          strokeLinecap="square"
+          shapeRendering="auto"
         ></path>
       </pattern>
     </svg>
