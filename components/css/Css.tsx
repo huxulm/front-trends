@@ -7,8 +7,7 @@ import React, {
   useState,
 } from "react";
 
-import { DataShape, refresh, render, SelectionRef } from "../../components/viz";
-import { useParentSize } from "@visx/responsive";
+import { DataShape, refresh, render, SelectionRef } from "../viz";
 import { scaleLinear, scaleUtc } from "d3-scale";
 import { min, max } from "d3-array";
 import { utcDay, utcMonth } from "d3-time";
