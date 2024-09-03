@@ -1,7 +1,7 @@
-const pkg4css = require("../app/css/pkg.json");
-const pkg4js = require("../app/js/pkg.json");
-const pkg4viz = require("../app/viz/pkg.json");
-const pkg4build = require("../app/build/pkg.json");
+const pkg4css = require("../components/css/pkg.json");
+const pkg4js = require("../components/js/pkg.json");
+const pkg4viz = require("../components/viz/pkg.json");
+const pkg4build = require("../components/build/pkg.json");
 const fs = require("fs");
 // const { ProxyAgent } = require("undici");
 // nodejs delete directory
