@@ -41,7 +41,7 @@ export interface SelectionRef {
 
 export interface RenderFunction {
   (props: {
-    ref?: React.RefObject<HTMLDivElement>;
+    ref?: React.RefObject<any>;
     ticks: any;
     data: {
       name: string;
@@ -54,6 +54,7 @@ export interface RenderFunction {
     width: number;
     height: number;
     brushHeight: number;
+    brushMargin: number;
     xScale: ScaleTime<number, number, never>;
     yScale: ScaleLinear<number, number, never>;
     xScaleBrush: ScaleTime<number, number, never>;
@@ -72,6 +73,7 @@ export const render: RenderFunction = ({
   width,
   height,
   brushHeight,
+  brushMargin,
   xValue,
   yValue,
   filteredData,
@@ -81,7 +83,7 @@ export const render: RenderFunction = ({
 }) => {
   const xAxisLabel = "时间";
   const yAxisLabel = "下载量";
-  const svg = select(ref!.current).select("svg");
+  const svg = select(ref!.current);
   const chartWidth = width;
   const chartHeight = height - brushHeight;
   const selectionRef = {} as SelectionRef;
@@ -96,15 +98,15 @@ export const render: RenderFunction = ({
     const [x0, x1] = selection.map(xScaleBrush.invert);
     onBrush([x0, x1]);
   }
-
+  
   const brush = brushX()
     .extent([
-      [0, height - brushHeight],
-      [width, height],
+      [0, height - brushHeight - brushMargin],
+      [width, height - brushMargin],
     ])
     .on("start brush end", brushed);
 
-  const brushTransform = `translate(0, ${chartHeight * 0.04})`;
+  const brushTransform = `translate(0, ${brushMargin})`;
 
   const color = scaleOrdinal(schemeCategory10).domain(data.map((d) => d.name));
 
@@ -141,8 +143,8 @@ export const render: RenderFunction = ({
   yAxisG
     .append("text")
     .attr("class", "axis-label")
-    .attr("y", -50)
-    .attr("x", -innerHeight / 2)
+    .attr("y", -35)
+    .attr("x", -(height - brushHeight) / 2)
     .attr("fill", "black")
     .attr("transform", `rotate(-90)`)
     .attr("text-anchor", "middle")
@@ -151,7 +153,7 @@ export const render: RenderFunction = ({
   const xAxisG = g
     .append("g")
     .call(xAxis)
-    .attr("transform", `translate(0,${chartHeight})`);
+    .attr("transform", `translate(0, ${height - brushHeight - brushMargin})`);
 
   selectionRef.xAxisG = xAxisG;
   selectionRef.yAxisG = yAxisG;

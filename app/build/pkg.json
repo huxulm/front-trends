@@ -1,0 +1,6 @@
+[
+  "esbuild",
+  "turbo",
+  "@swc/core",
+  "bun"
+]

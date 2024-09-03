@@ -1,0 +1,7 @@
+[
+  "d3",
+  "highcharts",
+  "echarts",
+  "@visx/scale",
+  "plotly.js"
+]

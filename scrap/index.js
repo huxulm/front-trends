@@ -1,6 +1,9 @@
-const pkg = require("../app/pkg.json");
+const pkg4css = require("../app/css/pkg.json");
+const pkg4js = require("../app/js/pkg.json");
+const pkg4viz = require("../app/viz/pkg.json");
+const pkg4build = require("../app/build/pkg.json");
 const fs = require("fs");
-// const { ProxyAgent } = require("undici");
+const { ProxyAgent } = require("undici");
 // nodejs delete directory
 // https://stackoverflow.com/questions/18052762/remove-directory-which-is-not-empty
 const rimraf = require("rimraf");
@@ -28,31 +31,40 @@ function getTimeRange(d) {
       from.setFullYear(now.getFullYear() - 1);
       break;
   }
+  from.setDate(from.getDate() - 7);
+  until.setDate(until.getDate() - 7);
   return [from.toISOString().split("T")[0], until.toISOString().split("T")[0]];
 }
 
-pkg.forEach((p) => {
-  const name = encodeURIComponent(p);
-  const path = `data/${name}`;
-  fs.mkdirSync(path);
-  dimensions.forEach((d) => {
-    const [from, to] = getTimeRange(d);
-    fetch(
-      `https://npm-trends-proxy.uidotdev.workers.dev/npm/downloads/range/${from}:${to}/${p}`,
-      // {
-      //   dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
-      // }
-    ).then((res) => {
-      res.json().then((data) => {
-        const downloads =
-          d === "w"
-            ? data.downloads
-            : data.downloads.filter((d, idx) => idx % 7 === 0);
-        fs.writeFileSync(
-          `${path}/${d}.json`,
-          JSON.stringify({ ...data, downloads }, null, 2)
-        );
+function scrapPkg(pkg) {
+  pkg.forEach((p) => {
+    const name = encodeURIComponent(p);
+    const path = `data/${name}`;
+    fs.mkdirSync(path);
+    dimensions.forEach((d) => {
+      const [from, to] = getTimeRange(d);
+      fetch(
+        `https://npm-trends-proxy.uidotdev.workers.dev/npm/downloads/range/${from}:${to}/${p}`,
+        {
+          dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
+        }
+      ).then((res) => {
+        res.json().then((data) => {
+          const downloads =
+            d === "w"
+              ? data.downloads
+              : data.downloads.filter((d, idx) => idx % 7 === 0);
+          fs.writeFileSync(
+            `${path}/${d}.json`,
+            JSON.stringify({ ...data, downloads }, null, 2)
+          );
+        });
       });
     });
   });
-});
+}
+
+scrapPkg(pkg4css);
+scrapPkg(pkg4js);
+scrapPkg(pkg4viz);
+scrapPkg(pkg4build);
