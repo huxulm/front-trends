@@ -215,7 +215,7 @@ export default function Home() {
   return (
     <div className="p-2 flex flex-wrap justify-center items-center min-h-screen min-w-full">
       {stats.length === pkgs.length && (
-        <div style={{ width: "50vw", height: "50vh" }}>
+        <div style={{ width: "80vw", height: "50vh" }}>
           <DownloadCard
             ticks={
               type === "w"

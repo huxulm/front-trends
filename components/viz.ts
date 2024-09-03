@@ -28,10 +28,15 @@ export interface SelectionRef {
   rect: Selection<SVGRectElement, unknown, null, undefined>;
   mouseG: Selection<SVGGElement, unknown, null, undefined>;
   brushG: Selection<SVGGElement, unknown, null, undefined>;
-  brushChartG: Selection<BaseType | SVGPathElement, {
-    name: string;
-    downloads: DataShape[];
-}, SVGGElement, unknown>;
+  brushChartG: Selection<
+    BaseType | SVGPathElement,
+    {
+      name: string;
+      downloads: DataShape[];
+    },
+    SVGGElement,
+    unknown
+  >;
 }
 
 export interface RenderFunction {
@@ -98,7 +103,7 @@ export const render: RenderFunction = ({
       [width, height],
     ])
     .on("start brush end", brushed);
-  
+
   const brushTransform = `translate(0, ${chartHeight * 0.04})`;
 
   const color = scaleOrdinal(schemeCategory10).domain(data.map((d) => d.name));
@@ -306,8 +311,8 @@ export const render: RenderFunction = ({
         brush.move,
         x1 > X1 ? [X1 - dx, X1] : x0 < X0 ? [X0, X0 + dx] : [x0, x1]
       );
-    })
-  
+    });
+
   selectionRef.brushG = brushG;
   return selectionRef;
 };
@@ -350,24 +355,26 @@ export const refresh = ({
     v.valueOf() >= 1000 ? `${v.valueOf() / 1000}K` : v.toString()
   );
 
-  selectionRef.xAxisG.select(".domain").remove()
-  selectionRef.yAxisG.select(".domain").remove()
+  selectionRef.xAxisG.select(".domain").remove();
+  selectionRef.yAxisG.select(".domain").remove();
 
-  selectionRef.xAxisG.call(xAxis)
-  selectionRef.yAxisG.call(yAxis)
+  selectionRef.xAxisG.call(xAxis);
+  selectionRef.yAxisG.call(yAxis);
 
-  selectionRef.chartLinesG
-    .data(filteredData)
-    .attr("d", (v) =>
-      line<DataShape>()
-        .x((d) => xScale(xValue(d)))
-        .y((d) => yScale(yValue(d)))(v.downloads)
-    );
+  selectionRef.chartLinesG.data(filteredData).attr("d", (v) =>
+    line<DataShape>()
+      .curve(curveCatmullRom)
+      .x((d) => xScale(xValue(d)))
+      .y((d) => yScale(yValue(d)))(v.downloads)
+  );
 
   // refresh brush chart
-  selectionRef.brushChartG.attr("d", (v) => line<DataShape>()
-  .x((d) => xScaleBrush(xValue(d)))
-  .y((d) => yScaleBrush(yValue(d)))(v.downloads))
+  selectionRef.brushChartG.attr("d", (v) =>
+    line<DataShape>()
+      .curve(curveCatmullRom)
+      .x((d) => xScaleBrush(xValue(d)))
+      .y((d) => yScaleBrush(yValue(d)))(v.downloads)
+  );
 
   // mouse listeners
   selectionRef.rect.on("mouseover", function (e) {
