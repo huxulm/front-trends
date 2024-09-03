@@ -138,7 +138,7 @@ const DownloadCard = ({
   const ref = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
-    if (!selectionRef.current) {
+    if (width > 0 && height > 0 && !selectionRef.current) {
       selectionRef.current = render({
         ref,
         filteredData,

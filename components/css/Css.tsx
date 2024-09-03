@@ -79,7 +79,7 @@ const DownloadCard = ({
           min(data, (d) => min(d.downloads, (v) => new Date(v.day))),
           max(data, (d) => max(d.downloads, (v) => new Date(v.day))),
         ];
-  }, [brushSelection]);
+  }, [data, brushSelection]);
 
   const yDomain = useMemo(() => {
     return [
@@ -138,7 +138,7 @@ const DownloadCard = ({
   const ref = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
-    if (!selectionRef.current) {
+    if (width > 0 && height > 0 && !selectionRef.current) {
       selectionRef.current = render({
         ref,
         filteredData,
