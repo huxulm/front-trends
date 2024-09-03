@@ -20,3 +20,7 @@ svg {
     stroke: none;
     fill: purple;
 }
+.brush {
+    fill: rgba(230, 230, 230, 0.998);
+    stroke: rgba(24, 24, 24, 0.329)
+}

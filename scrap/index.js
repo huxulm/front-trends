@@ -1,6 +1,6 @@
 const pkg = require("../app/pkg.json");
 const fs = require("fs");
-const { ProxyAgent } = require("undici");
+// const { ProxyAgent } = require("undici");
 // nodejs delete directory
 // https://stackoverflow.com/questions/18052762/remove-directory-which-is-not-empty
 const rimraf = require("rimraf");
@@ -39,9 +39,9 @@ pkg.forEach((p) => {
     const [from, to] = getTimeRange(d);
     fetch(
       `https://npm-trends-proxy.uidotdev.workers.dev/npm/downloads/range/${from}:${to}/${p}`,
-      {
-        dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
-      }
+      // {
+      //   dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
+      // }
     ).then((res) => {
       res.json().then((data) => {
         const downloads =

@@ -44,6 +44,11 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: fetch-npm-stat
+        run: |
+          pnpm run scrap
+
       - name: Build with Next.js
         run: pnpm run build
       - name: Upload artifact
