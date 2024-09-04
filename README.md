@@ -1,2 +1,3 @@
 # front-trends
-![image](https://github.com/user-attachments/assets/bea3bbeb-38b5-46f8-8522-9cea02f5b6d6)
+![2024-09-04 215105](https://github.com/user-attachments/assets/38db1a7f-4b30-425b-a987-9185e973c5f1)
+
