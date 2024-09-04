@@ -2,5 +2,6 @@
   "esbuild",
   "turbo",
   "@swc/core",
-  "bun"
+  "bun",
+  "parcel"
 ]

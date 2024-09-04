@@ -1,26 +1,26 @@
 {
   "start": "2024-07-28",
   "end": "2024-08-28",
-  "package": "tachyons",
+  "package": "parcel",
   "downloads": [
     {
-      "downloads": 3043,
+      "downloads": 7920,
       "day": "2024-07-28"
     },
     {
-      "downloads": 2312,
+      "downloads": 9192,
       "day": "2024-08-04"
     },
     {
-      "downloads": 2513,
+      "downloads": 7303,
       "day": "2024-08-11"
     },
     {
-      "downloads": 2758,
+      "downloads": 7947,
       "day": "2024-08-18"
     },
     {
-      "downloads": 2014,
+      "downloads": 7142,
       "day": "2024-08-25"
     }
   ]
