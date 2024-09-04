@@ -6,6 +6,7 @@ import { line, curveCatmullRom, area } from "d3-shape";
 import { schemeCategory10 } from "d3-scale-chromatic";
 import { bisector } from "d3-array";
 import { brushX } from "d3-brush";
+import { utcMonth } from "d3-time";
 
 export interface DataShape {
   day: string;
@@ -90,21 +91,15 @@ export const render: RenderFunction = ({
 
   svg.attr("style", `overflow: visible;`);
 
-  function brushed(this: SVGGElement, event: any, d: any) {
-    const selection = event.selection;
-    if (selection === null) {
-      return;
-    }
-    const [x0, x1] = selection.map(xScaleBrush.invert);
-    onBrush([x0, x1]);
-  }
+  const defaultSelection = [xScaleBrush(utcMonth.offset(xScaleBrush.domain()[1], -1)), xScaleBrush.range()[1]];
   
   const brush = brushX()
     .extent([
       [0, height - brushHeight - brushMargin],
       [width, height - brushMargin],
     ])
-    .on("start brush end", brushed);
+    .on("brush", brushed)
+    .on("end", brushended);
 
   const brushTransform = `translate(0, ${brushMargin})`;
 
@@ -250,7 +245,6 @@ export const render: RenderFunction = ({
 
   rect.on("mouseover", function (e) {
     e.preventDefault();
-    console.log("move over...");
     mouseG.style("display", "block");
   });
 
@@ -302,20 +296,23 @@ export const render: RenderFunction = ({
     .append("g")
     .attr("class", "brush")
     .attr("transform", brushTransform)
-    .call(brush)
-    .on("mousedown touchstart", function beforebrushstarted(event) {
-      const dx = chartWidth * 0.2;
-      const [[cx]] = pointers(event);
-      const [x0, x1] = [cx - dx / 2, cx + dx / 2];
-      const [X0, X1] = xScale.range();
-      // @ts-ignore
-      brushG.call(
-        brush.move,
-        x1 > X1 ? [X1 - dx, X1] : x0 < X0 ? [X0, X0 + dx] : [x0, x1]
-      );
-    });
+    .call(brush);
 
   selectionRef.brushG = brushG;
+
+  function brushed({selection}: any) {
+    if (selection) {
+      onBrush(selection.map(xScaleBrush.invert));
+    }
+  }
+
+  function brushended({selection}: any) {
+    if (!selection) {
+      // @ts-ignore
+      brushG.call(brush.move, defaultSelection);
+    }
+  }
+
   return selectionRef;
 };
 
@@ -381,7 +378,6 @@ export const refresh = ({
   // mouse listeners
   selectionRef.rect.on("mouseover", function (e) {
     e.preventDefault();
-    console.log("move over...");
     selectionRef.mouseG.style("display", "block");
   });
 
