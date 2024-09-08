@@ -1,7 +1,8 @@
 [
   "d3",
-  "highcharts",
+  "recharts",
   "echarts",
   "@visx/scale",
+  "highcharts",
   "plotly.js"
 ]

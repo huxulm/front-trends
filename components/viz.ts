@@ -135,15 +135,15 @@ export const render: RenderFunction = ({
 
   const yAxisG = g.append("g").call(yAxis);
 
-  yAxisG
-    .append("text")
-    .attr("class", "axis-label")
-    .attr("y", -35)
-    .attr("x", -(height - brushHeight) / 2)
-    .attr("fill", "black")
-    .attr("transform", `rotate(-90)`)
-    .attr("text-anchor", "middle")
-    .text(yAxisLabel);
+  // yAxisG
+  //   .append("text")
+  //   .attr("class", "axis-label")
+  //   .attr("y", -35)
+  //   .attr("x", -(height - brushHeight) / 2)
+  //   .attr("fill", "black")
+  //   .attr("transform", `rotate(-90)`)
+  //   .attr("text-anchor", "middle")
+  //   .text(yAxisLabel);
 
   const xAxisG = g
     .append("g")
@@ -153,13 +153,13 @@ export const render: RenderFunction = ({
   selectionRef.xAxisG = xAxisG;
   selectionRef.yAxisG = yAxisG;
 
-  xAxisG
-    .append("text")
-    .attr("class", "axis-label")
-    .attr("y", 35)
-    .attr("x", chartWidth / 2)
-    .attr("fill", "black")
-    .text(xAxisLabel);
+  // xAxisG
+  //   .append("text")
+  //   .attr("class", "axis-label")
+  //   .attr("y", 35)
+  //   .attr("x", chartWidth / 2)
+  //   .attr("fill", "black")
+  //   .text(xAxisLabel);
 
   const lineGenerator = line<DataShape>()
     .x((d) => xScale(xValue(d)))
