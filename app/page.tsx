@@ -32,25 +32,33 @@ function Page() {
     <div className="flex flex-wrap w-screen h-screen">
       <div style={{ width: "50%", height: "50%" }} className="bg-grey-50 p-10">
         <div className="w-full h-full ms-5 relative" ref={p1}>
-          <button className="absolute px-2 left-[-0.1rem] top-[-2rem] bg-purple-400 hover:bg-purple-200 rounded border border-purple-950">CSS Framework</button>
+          <button className="absolute px-2 left-[-0.1rem] top-[-2rem] bg-purple-400 hover:bg-purple-200 rounded border-purple-950 shadow-md shadow-purple-500">
+            CSS Framework
+          </button>
           <CssTrend width={w1} height={h1} />
         </div>
       </div>
       <div style={{ width: "50%", height: "50%" }} className="bg-grey-50 p-10">
         <div className="w-full h-full ms-5 relative" ref={p3}>
-          <button className="absolute px-2 left-[-0.1rem] top-[-2rem] bg-cyan-400 hover:bg-cyan-200 rounded border border-cyan-950">Javascript Framework</button>
+          <button className="absolute px-2 left-[-0.1rem] top-[-2rem] bg-cyan-400 hover:bg-cyan-200 rounded border-cyan-950 shadow-md shadow-cyan-500">
+            Javascript Framework
+          </button>
           <JsTrend width={w3} height={h3} />
         </div>
       </div>
       <div style={{ width: "50%", height: "50%" }} className="bg-grey-50 p-10">
         <div className="w-full h-full ms-5 relative" ref={p4}>
-          <button className="absolute px-2 left-[-0.1rem] top-[-2rem] bg-orange-400 hover:bg-orange-200 rounded border border-orange-950">Visualization Framework</button>
+          <button className="absolute px-2 left-[-0.1rem] top-[-2rem] bg-orange-400 hover:bg-orange-200 rounded border-orange-950 shadow-md shadow-orange-500">
+            Visualization Framework
+          </button>
           <VizTrend width={w4} height={h4} />
         </div>
       </div>
       <div style={{ width: "50%", height: "50%" }} className="bg-grey-50 p-10">
         <div className="w-full h-full ms-5 relative" ref={p2}>
-          <button className="absolute px-2 left-[-0.1rem] top-[-2rem] bg-blue-400 hover:bg-blue-200 rounded border border-blue-950">Building & Bundling Tools</button>
+          <button className="absolute px-2 left-[-0.1rem] top-[-2rem] bg-blue-400 hover:bg-blue-200 rounded border-blue-950 shadow-md shadow-blue-500">
+            Building & Bundling Tools
+          </button>
           <BuildTrend width={w2} height={h2} />
         </div>
       </div>
