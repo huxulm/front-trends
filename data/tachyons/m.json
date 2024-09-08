@@ -1,27 +1,27 @@
 {
-  "start": "2024-07-31",
-  "end": "2024-08-31",
+  "start": "2024-08-01",
+  "end": "2024-09-01",
   "package": "tachyons",
   "downloads": [
     {
-      "downloads": 12623,
-      "day": "2024-07-31"
+      "downloads": 11402,
+      "day": "2024-08-01"
     },
     {
-      "downloads": 14771,
-      "day": "2024-08-07"
+      "downloads": 12351,
+      "day": "2024-08-08"
     },
     {
-      "downloads": 13405,
-      "day": "2024-08-14"
+      "downloads": 14167,
+      "day": "2024-08-15"
     },
     {
-      "downloads": 14361,
-      "day": "2024-08-21"
+      "downloads": 14245,
+      "day": "2024-08-22"
     },
     {
-      "downloads": 14577,
-      "day": "2024-08-28"
+      "downloads": 15476,
+      "day": "2024-08-29"
     }
   ]
 }
