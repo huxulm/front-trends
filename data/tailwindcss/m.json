@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-03",
-  "end": "2024-09-03",
+  "start": "2024-08-04",
+  "end": "2024-09-04",
   "package": "tailwindcss",
   "downloads": [
     {
-      "downloads": 488026,
-      "day": "2024-08-03"
+      "downloads": 472535,
+      "day": "2024-08-04"
     },
     {
-      "downloads": 515192,
-      "day": "2024-08-10"
+      "downloads": 511721,
+      "day": "2024-08-11"
     },
     {
-      "downloads": 492625,
-      "day": "2024-08-17"
+      "downloads": 508709,
+      "day": "2024-08-18"
     },
     {
-      "downloads": 507040,
-      "day": "2024-08-24"
+      "downloads": 501544,
+      "day": "2024-08-25"
     },
     {
-      "downloads": 521638,
-      "day": "2024-08-31"
+      "downloads": 566220,
+      "day": "2024-09-01"
     }
   ]
 }
