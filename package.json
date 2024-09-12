@@ -8,7 +8,8 @@
     "start": "next start",
     "clean": "turbo run clean && rm -rf node_modules",
     "lint": "next lint",
-    "scrap": "node ./scrap/index.js"
+    "scrap": "node ./scrap/index.js",
+    "scrap:prod": "NODE_ENV=production node ./scrap/index.js"
   },
   "dependencies": {
     "@qttdev/utils": "^0.0.2",

@@ -51,9 +51,11 @@ function scrapPkg(pkg) {
       const [from, to] = getTimeRange(d);
       fetch(
         `https://npm-trends-proxy.uidotdev.workers.dev/npm/downloads/range/${from}:${to}/${p}`,
-        {
-          dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
-        }
+        process.env.NODE_ENV === "production"
+          ? null
+          : {
+              dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
+            }
       ).then((res) => {
         res.json().then((data) => {
           const downloads =

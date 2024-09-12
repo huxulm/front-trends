@@ -47,7 +47,7 @@ jobs:
 
       - name: Fetch npm stats
         run: |
-          pnpm run scrap
+          pnpm run scrap:prod
 
       - name: Commit & Push changes
         uses: actions-js/push@master
