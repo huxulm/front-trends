@@ -2,7 +2,7 @@
   "d3",
   "recharts",
   "echarts",
-  "@visx/scale",
+  "@visx/group",
   "highcharts",
   "plotly.js",
   "reaviz",
