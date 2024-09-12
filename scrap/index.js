@@ -52,7 +52,7 @@ function scrapPkg(pkg) {
       fetch(
         `https://npm-trends-proxy.uidotdev.workers.dev/npm/downloads/range/${from}:${to}/${p}`,
         process.env.NODE_ENV === "production"
-          ? null
+          ? undefined
           : {
               dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
             }
