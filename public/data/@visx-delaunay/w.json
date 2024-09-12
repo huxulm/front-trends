@@ -1,0 +1,39 @@
+{
+  "start": "2024-08-29",
+  "end": "2024-09-05",
+  "package": "@visx/delaunay",
+  "downloads": [
+    {
+      "downloads": 4526,
+      "day": "2024-08-29"
+    },
+    {
+      "downloads": 3120,
+      "day": "2024-08-30"
+    },
+    {
+      "downloads": 478,
+      "day": "2024-08-31"
+    },
+    {
+      "downloads": 545,
+      "day": "2024-09-01"
+    },
+    {
+      "downloads": 3922,
+      "day": "2024-09-02"
+    },
+    {
+      "downloads": 5016,
+      "day": "2024-09-03"
+    },
+    {
+      "downloads": 4810,
+      "day": "2024-09-04"
+    },
+    {
+      "downloads": 4713,
+      "day": "2024-09-05"
+    }
+  ]
+}
