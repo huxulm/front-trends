@@ -40,13 +40,17 @@ function getTimeRange(d) {
 
 function scrapPkg(pkg) {
   pkg.forEach((p) => {
-    const name = p.replace('/', '-')
+    const name = p.replace("/", "-");
     const path = `public/data/${name}`;
-    fs.mkdirSync(path);
+    try {
+      fs.mkdirSync(path);
+    } catch (e) {
+      console.log(`Directory ${path} already exists`);
+    }
     dimensions.forEach((d) => {
       const [from, to] = getTimeRange(d);
       fetch(
-        `https://npm-trends-proxy.uidotdev.workers.dev/npm/downloads/range/${from}:${to}/${p}`,
+        `https://npm-trends-proxy.uidotdev.workers.dev/npm/downloads/range/${from}:${to}/${p}`
         // {
         //   dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
         // }
@@ -56,10 +60,14 @@ function scrapPkg(pkg) {
             d === "w"
               ? data.downloads
               : data.downloads.filter((d, idx) => idx % 7 === 0);
-          fs.writeFileSync(
-            `${path}/${d}.json`,
-            JSON.stringify({ ...data, downloads }, null, 2)
-          );
+          try {
+            fs.writeFileSync(
+              `${path}/${d}.json`,
+              JSON.stringify({ ...data, downloads }, null, 2)
+            );
+          } catch (error) {
+            console.log(`Error writing file: ${path}/${d}.json`, error);
+          }
         });
       });
     });
