@@ -1,0 +1,8 @@
+[
+  "esbuild",
+  "tsup",
+  "turbo",
+  "@swc/core",
+  "bun",
+  "parcel"
+]

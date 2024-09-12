@@ -1,14 +1,15 @@
-const pkg4css = require("../components/css/pkg.json");
-const pkg4js = require("../components/js/pkg.json");
-const pkg4viz = require("../components/viz/pkg.json");
-const pkg4build = require("../components/build/pkg.json");
+const pkg4css = require("../components/pkgs/css.json");
+const pkg4js = require("../components/pkgs/js.json");
+const pkg4viz = require("../components/pkgs/viz.json");
+const pkg4build = require("../components/pkgs/build.json");
+const pkg4d3 = require("../components/pkgs/d3.json");
 const fs = require("fs");
-// const { ProxyAgent } = require("undici");
+const { ProxyAgent } = require("undici");
 // nodejs delete directory
 // https://stackoverflow.com/questions/18052762/remove-directory-which-is-not-empty
 const rimraf = require("rimraf");
-rimraf.sync("data");
-fs.mkdirSync("data");
+rimraf.sync("public/data");
+fs.mkdirSync("public/data");
 
 const dimensions = ["w", "m", "y"];
 
@@ -38,16 +39,16 @@ function getTimeRange(d) {
 
 function scrapPkg(pkg) {
   pkg.forEach((p) => {
-    const name = encodeURIComponent(p);
-    const path = `data/${name}`;
+    const name = p.replace('/', '-')
+    const path = `public/data/${name}`;
     fs.mkdirSync(path);
     dimensions.forEach((d) => {
       const [from, to] = getTimeRange(d);
       fetch(
         `https://npm-trends-proxy.uidotdev.workers.dev/npm/downloads/range/${from}:${to}/${p}`,
-        // {
-        //   dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
-        // }
+        {
+          dispatcher: new ProxyAgent("http://127.0.0.1:8889"),
+        }
       ).then((res) => {
         res.json().then((data) => {
           const downloads =
@@ -68,3 +69,4 @@ scrapPkg(pkg4css);
 scrapPkg(pkg4js);
 scrapPkg(pkg4viz);
 scrapPkg(pkg4build);
+scrapPkg(pkg4d3);

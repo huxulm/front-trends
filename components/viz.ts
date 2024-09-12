@@ -20,7 +20,7 @@ export interface SelectionRef {
   chartLinesG: Selection<
     BaseType | SVGPathElement,
     {
-      name: string;
+      package: string;
       downloads: DataShape[];
     },
     SVGGElement,
@@ -32,7 +32,7 @@ export interface SelectionRef {
   brushChartG: Selection<
     BaseType | SVGPathElement,
     {
-      name: string;
+      package: string;
       downloads: DataShape[];
     },
     SVGGElement,
@@ -45,11 +45,11 @@ export interface RenderFunction {
     ref?: React.RefObject<any>;
     ticks: any;
     data: {
-      name: string;
+      package: string;
       downloads: DataShape[];
     }[];
     filteredData: {
-      name: string;
+      package: string;
       downloads: DataShape[];
     }[];
     width: number;
@@ -82,8 +82,6 @@ export const render: RenderFunction = ({
   ticks,
   onBrush,
 }) => {
-  const xAxisLabel = "时间";
-  const yAxisLabel = "下载量";
   const svg = select(ref!.current);
   const chartWidth = width;
   const chartHeight = height - brushHeight;
@@ -91,8 +89,11 @@ export const render: RenderFunction = ({
 
   svg.attr("style", `overflow: visible;`);
 
-  const defaultSelection = [xScaleBrush(utcMonth.offset(xScaleBrush.domain()[1], -1)), xScaleBrush.range()[1]];
-  
+  const defaultSelection = [
+    xScaleBrush(utcMonth.offset(xScaleBrush.domain()[1], -1)),
+    xScaleBrush.range()[1],
+  ];
+
   const brush = brushX()
     .extent([
       [0, height - brushHeight - brushMargin],
@@ -103,7 +104,9 @@ export const render: RenderFunction = ({
 
   const brushTransform = `translate(0, ${brushMargin})`;
 
-  const color = scaleOrdinal(schemeCategory10).domain(data.map((d) => d.name));
+  const color = scaleOrdinal(schemeCategory10).domain(
+    data.map((d) => d.package)
+  );
 
   const rect = svg
     .append("rect")
@@ -172,34 +175,34 @@ export const render: RenderFunction = ({
     .curve(curveCatmullRom);
 
   // add lengends
-  g.append("g")
-    // .attr("transform", "translate(10, -2)")
-    .call((selection) => {
-      selection
-        .selectAll("rect")
-        .data(filteredData)
-        .join("rect")
-        .attr("stroke", "none")
-        .attr("x", (_, idx) => 50 * idx)
-        .attr("y", (_, idx) => idx * 20 + 2.5)
-        .attr("width", 50)
-        .attr("height", 5)
-        .attr("fill", (v) => color(v.name));
-    })
-    .call((selection) => {
-      selection
-        .selectAll("text")
-        .data(filteredData)
-        .join("text")
-        .attr("fill", (v) => color(v.name))
-        .attr("stroke", "none")
-        .attr("x", (_, idx) => 50 * idx + 55)
-        .attr("y", (_, idx) => idx * 20 - 2)
-        .attr("text-anchor", "start")
-        // add more attrs
-        .attr("dominant-baseline", "hanging")
-        .text((v) => v.name);
-    });
+  // g.append("g")
+  //   // .attr("transform", "translate(10, -2)")
+  //   .call((selection) => {
+  //     selection
+  //       .selectAll("rect")
+  //       .data(filteredData)
+  //       .join("rect")
+  //       .attr("stroke", "none")
+  //       .attr("x", (_, idx) => 50 * idx)
+  //       .attr("y", (_, idx) => idx * 20 + 2.5)
+  //       .attr("width", 50)
+  //       .attr("height", 5)
+  //       .attr("fill", (v) => color(v.package));
+  //   })
+  //   .call((selection) => {
+  //     selection
+  //       .selectAll("text")
+  //       .data(filteredData)
+  //       .join("text")
+  //       .attr("fill", (v) => color(v.package))
+  //       .attr("stroke", "none")
+  //       .attr("x", (_, idx) => 50 * idx + 55)
+  //       .attr("y", (_, idx) => idx * 20 - 2)
+  //       .attr("text-anchor", "start")
+  //       // add more attrs
+  //       .attr("dominant-baseline", "hanging")
+  //       .text((v) => v.package);
+  //   });
 
   // add lines
   const chartLinesG = g
@@ -210,7 +213,7 @@ export const render: RenderFunction = ({
     .attr("class", "line-path")
     .attr("fill", "none")
     .attr("stroke-width", 2)
-    .attr("stroke", (v, idx) => color(v.name))
+    .attr("stroke", (v, idx) => color(v.package))
     .attr("d", (v) => lineGenerator(v.downloads));
 
   selectionRef.chartLinesG = chartLinesG;
@@ -284,7 +287,7 @@ export const render: RenderFunction = ({
       .join("path")
       .attr("d", (v) => brushLineGenerator(v.downloads))
       .attr("fill", "transparent")
-      .attr("stroke", (v, _) => color(v.name))
+      .attr("stroke", (v, _) => color(v.package))
       .attr("stroke-width", 1);
   };
 
@@ -300,13 +303,13 @@ export const render: RenderFunction = ({
 
   selectionRef.brushG = brushG;
 
-  function brushed({selection}: any) {
+  function brushed({ selection }: any) {
     if (selection) {
       onBrush(selection.map(xScaleBrush.invert));
     }
   }
 
-  function brushended({selection}: any) {
+  function brushended({ selection }: any) {
     if (!selection) {
       // @ts-ignore
       brushG.call(brush.move, defaultSelection);
@@ -336,8 +339,8 @@ export const refresh = ({
   yValue: (d: any) => number;
   xScaleBrush: ScaleTime<number, number, never>;
   yScaleBrush: ScaleLinear<number, number, never>;
-  filteredData: { name: string; downloads: DataShape[] }[];
-  data: { name: string; downloads: DataShape[] }[];
+  filteredData: { package: string; downloads: DataShape[] }[];
+  data: { package: string; downloads: DataShape[] }[];
 }) => {
   // refresh axis
   const xAxis = axisBottom<Date>(xScale)
