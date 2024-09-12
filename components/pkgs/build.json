@@ -4,5 +4,6 @@
   "turbo",
   "@swc/core",
   "bun",
-  "parcel"
+  "parcel",
+  "lerna"
 ]
