@@ -7,31 +7,45 @@ body {
     height: 100vh;
 }
 
-svg {
-    stroke: #8956ff;
-    fill: rgba(137, 86, 255, .2);
-    font-family: 'Roboto', sans-serif;
-}
-.line-path {
-    fill: none;
-    stroke-width: 2;
-}
 .axis-label {
     font-size: 1rem;
     stroke: none;
     fill: purple;
 }
-.tick {
-    stroke: none;
-    fill: purple;
+
+@layer components {
+
+    svg,
+    .axis {
+        @apply font-song;
+    }
+
+    .line-path {
+        @apply stroke-[1.5];
+    }
+
+    .tick,
+    .axis,
+    .domain {
+        @apply text-slate-900;
+    }
+
+    .dark .tick,
+    .dark .axis,
+    .dark .domain {
+        @apply text-blue-600 font-semibold;
+    }
 }
+
 .brush {
     fill: rgba(129, 174, 248, 0.1);
     stroke: none;
 }
+
 .brush-chart path {
     stroke-width: .8;
 }
+
 .brush .selection {
     fill: url(#brush_pattern);
 }

@@ -4,5 +4,6 @@
   "echarts",
   "@visx/scale",
   "highcharts",
-  "plotly.js"
+  "plotly.js",
+  "reaviz"
 ]

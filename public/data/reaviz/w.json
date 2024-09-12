@@ -1,38 +1,38 @@
 {
   "start": "2024-08-29",
   "end": "2024-09-05",
-  "package": "@visx/network",
+  "package": "reaviz",
   "downloads": [
     {
-      "downloads": 9653,
+      "downloads": 1370,
       "day": "2024-08-29"
     },
     {
-      "downloads": 6676,
+      "downloads": 1082,
       "day": "2024-08-30"
     },
     {
-      "downloads": 760,
+      "downloads": 443,
       "day": "2024-08-31"
     },
     {
-      "downloads": 920,
+      "downloads": 831,
       "day": "2024-09-01"
     },
     {
-      "downloads": 7458,
+      "downloads": 728,
       "day": "2024-09-02"
     },
     {
-      "downloads": 9909,
+      "downloads": 1220,
       "day": "2024-09-03"
     },
     {
-      "downloads": 11289,
+      "downloads": 1515,
       "day": "2024-09-04"
     },
     {
-      "downloads": 9696,
+      "downloads": 1501,
       "day": "2024-09-05"
     }
   ]

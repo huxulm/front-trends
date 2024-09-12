@@ -22,7 +22,7 @@ function Page() {
   }, [] )
   return (
     <SWRConfig value={{ provider: () => new Map() }}>
-      <div className="flex flex-wrap w-full h-[120vh] gap-5">
+      <div className="flex flex-wrap w-full h-[120vh] gap-5 dark:bg-slate-900">
         {pkgs.map( (item, idx) => (<TrendSetWrapper key={`td-${idx}`} title={trendsNaming[idx]} trendEle={TrendSet} pkgs={item} />))}
       </div>
     </SWRConfig>
@@ -40,7 +40,7 @@ function TrendSetWrapper({
 }) {
   const { parentRef, width, height } = useParentSize({ debounceTime: 150 });
   return (
-    <div className="bg-grey-50 py-10 px-10 w-screen h-[100vw] max-h-[320px] sm:w-[32%] sm:h-[45%] sm:max-h-screen">
+    <div className="bg-grey-50 dark:bg-slate-900 py-10 px-10 w-screen h-[100vw] max-h-[320px] sm:w-[32%] sm:h-[45%] sm:max-h-screen">
       <div className="w-full h-full ms-5 relative" ref={parentRef}>
         <button className="absolute px-2 text-slate-50 left-[-0.1rem] top-[-2rem] text-base bg-purple-400 hover:bg-purple-200 rounded border-purple-950 shadow-md shadow-purple-500">
           {title}

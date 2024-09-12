@@ -136,7 +136,7 @@ export const render: RenderFunction = ({
     v.valueOf() >= 1000 ? `${v.valueOf() / 1000}K` : v.toString()
   );
 
-  const yAxisG = g.append("g").call(yAxis);
+  const yAxisG = g.append("g").attr("class", "axis").call(yAxis);
 
   // yAxisG
   //   .append("text")
@@ -150,6 +150,7 @@ export const render: RenderFunction = ({
 
   const xAxisG = g
     .append("g")
+    .attr("class", "axis")
     .call(xAxis)
     .attr("transform", `translate(0, ${height - brushHeight - brushMargin})`);
 
@@ -212,7 +213,6 @@ export const render: RenderFunction = ({
     .join("path")
     .attr("class", "line-path")
     .attr("fill", "none")
-    .attr("stroke-width", 2)
     .attr("stroke", (v, idx) => color(v.package))
     .attr("d", (v) => lineGenerator(v.downloads));
 

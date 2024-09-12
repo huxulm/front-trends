@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,7 +10,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      song: ["Songti SC", "SimSun", "STSong", "宋体"],
+    },
+    extend: {
+    },
   },
   plugins: [],
 }

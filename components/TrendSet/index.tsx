@@ -223,7 +223,7 @@ const Panel = ({
   }, [data]);
   return (
     <>
-      <div className="w-full h-[50px] flex flex-wrap gap-1">
+      <div className="w-full h-[50px] flex flex-wrap gap-1 dark:bg-slate-900">
         {data.map((item, idx) => (
           <span
             key={`legend-${idx}`}
