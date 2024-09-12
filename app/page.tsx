@@ -9,7 +9,7 @@ const trendsNaming = ['CSS Frameworks', 'Javascript Libraries', 'Visualize Libra
 function Page() {
   const getAllPkgs = useCallback(async () => {
     const results = await Promise.all(
-      ["build", "css", "js", "viz", "d3", "visx"].map((item) =>
+      ["css", "js", "viz", "build", "d3", "visx"].map((item) =>
         import(`../components/pkgs/${item}.json`).then((res) => res.default)
       )
     );

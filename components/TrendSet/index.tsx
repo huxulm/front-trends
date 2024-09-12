@@ -10,11 +10,11 @@ import React, {
 } from "react";
 
 import { DataShape, refresh, render, SelectionRef } from "@/components/viz";
-import { scaleLinear, scaleUtc } from "d3-scale";
-import { min, max } from "d3-array";
+import { scaleLinear, scaleOrdinal, scaleUtc } from "d3-scale";
+import { min, max, sort, sum } from "d3-array";
 import { utcDay, utcMonth } from "d3-time";
-import pkgs from "./pkg.json";
 import useSWR from "swr";
+import { schemeCategory10 } from "d3-scale-chromatic";
 
 export interface TrendSetProps {
   pkgs: string[];
@@ -74,9 +74,15 @@ const Panel = ({
   const { data = [] } = useSWR<Data[]>(
     `/api/${encodeURIComponent(pkgs.join("-"))}`,
     async () => {
-      return await Promise.all(fetchers)
+      const results = await Promise.all(fetchers)
         .then((res) => res)
         .catch((e) => []);
+      return sort(
+        results,
+        (a, b) =>
+          max(b.downloads, (v) => v.downloads)! -
+          max(a.downloads, (v) => v.downloads)!
+      );
     }
   );
   const filteredData = useMemo(() => {
@@ -211,29 +217,41 @@ const Panel = ({
     filteredData,
     ticks,
   ]);
+
+  const colorFn = useMemo(() => {
+    return scaleOrdinal(schemeCategory10).domain(data.map((d) => d.package));
+  }, [data]);
   return (
     <>
-    <div className="w-full h-[50px] flex flex-wrap gap-1">
-      {pkgs.map((item, idx) => <span key={`legend-${idx}`} className={`h-5 p-[2px] rounded-sm text-xs ${legendBgColors[idx%legendBgColors.length]}`}>{item}</span>)}
-    </div>
-    <svg width={width} height={height - 50} fill="none" ref={ref}>
-      <pattern
-        id="brush_pattern"
-        width="8"
-        height="8"
-        patternUnits="userSpaceOnUse"
-      >
-        <path
-          className="brush-pattern-line"
-          d="M 0,8 l 8,-8 M -2,2 l 4,-4
+      <div className="w-full h-[50px] flex flex-wrap gap-1">
+        {data.map((item, idx) => (
+          <span
+            key={`legend-${idx}`}
+            className={`h-5 p-[2px] rounded-sm text-xs`}
+            style={{ background: colorFn(item.package) }}
+          >
+            {item.package}
+          </span>
+        ))}
+      </div>
+      <svg width={width} height={height - 50} fill="none" ref={ref}>
+        <pattern
+          id="brush_pattern"
+          width="8"
+          height="8"
+          patternUnits="userSpaceOnUse"
+        >
+          <path
+            className="brush-pattern-line"
+            d="M 0,8 l 8,-8 M -2,2 l 4,-4
              M 6,10 l 4,-4"
-          stroke="#2e7af3"
-          strokeWidth="1"
-          strokeLinecap="square"
-          shapeRendering="auto"
-        ></path>
-      </pattern>
-    </svg>
+            stroke="#2e7af3"
+            strokeWidth="1"
+            strokeLinecap="square"
+            shapeRendering="auto"
+          ></path>
+        </pattern>
+      </svg>
     </>
   );
 };
