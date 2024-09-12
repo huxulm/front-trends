@@ -23,7 +23,7 @@ function Page() {
   return (
     <SWRConfig value={{ provider: () => new Map() }}>
       <div className="flex flex-wrap w-full h-[120vh] gap-5">
-        {pkgs.map( (item, idx) => (<TrendSetWrapper title={trendsNaming[idx]} trendEle={TrendSet} pkgs={item} />))}
+        {pkgs.map( (item, idx) => (<TrendSetWrapper key={`td-${idx}`} title={trendsNaming[idx]} trendEle={TrendSet} pkgs={item} />))}
       </div>
     </SWRConfig>
   );

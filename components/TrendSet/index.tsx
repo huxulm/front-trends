@@ -214,7 +214,7 @@ const Panel = ({
   return (
     <>
     <div className="w-full h-[50px] flex flex-wrap gap-1">
-      {pkgs.map((item, idx) => <span className={`h-5 p-[2px] rounded-sm text-xs ${legendBgColors[idx%legendBgColors.length]}`}>{item}</span>)}
+      {pkgs.map((item, idx) => <span key={`legend-${idx}`} className={`h-5 p-[2px] rounded-sm text-xs ${legendBgColors[idx%legendBgColors.length]}`}>{item}</span>)}
     </div>
     <svg width={width} height={height - 50} fill="none" ref={ref}>
       <pattern
