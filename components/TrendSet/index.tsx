@@ -227,10 +227,15 @@ const Panel = ({
         {data.map((item, idx) => (
           <span
             key={`legend-${idx}`}
-            className={`h-5 p-[2px] rounded-sm text-xs`}
+            className={`h-5 p-[2px] rounded-sm text-xs dark:hover:bg-slate-100`}
             style={{ background: colorFn(item.package) }}
           >
-            {item.package}
+            <a
+              href={`https://www.npmjs.com/package/${item.package}`}
+              target="_blank"
+            >
+              {item.package}
+            </a>
           </span>
         ))}
       </div>
