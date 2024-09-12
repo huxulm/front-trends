@@ -4,12 +4,12 @@ import { useParentSize } from "@visx/responsive";
 import { SWRConfig } from "swr";
 import { TrendSet } from "@/components/TrendSet";
 
-const trendsNaming = ['CSS Frameworks', 'Javascript Libraries', 'Visualize Libraries', 'Building Tools', 'D3 Libraries']
+const trendsNaming = ['CSS Frameworks', 'Javascript Libraries', 'Visualize Libraries', 'Building Tools', 'D3 Libraries', 'Visx Libraries']
 
 function Page() {
   const getAllPkgs = useCallback(async () => {
     const results = await Promise.all(
-      ["build", "css", "js", "viz", "d3"].map((item) =>
+      ["build", "css", "js", "viz", "d3", "visx"].map((item) =>
         import(`../components/pkgs/${item}.json`).then((res) => res.default)
       )
     );

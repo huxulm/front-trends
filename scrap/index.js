@@ -3,6 +3,7 @@ const pkg4js = require("../components/pkgs/js.json");
 const pkg4viz = require("../components/pkgs/viz.json");
 const pkg4build = require("../components/pkgs/build.json");
 const pkg4d3 = require("../components/pkgs/d3.json");
+const pkg4visx = require("../components/pkgs/visx.json");
 const fs = require("fs");
 // const { ProxyAgent } = require("undici");
 // nodejs delete directory
@@ -70,3 +71,4 @@ scrapPkg(pkg4js);
 scrapPkg(pkg4viz);
 scrapPkg(pkg4build);
 scrapPkg(pkg4d3);
+scrapPkg(pkg4visx);
