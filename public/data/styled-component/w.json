@@ -1,12 +1,8 @@
 {
-  "start": "2024-08-29",
-  "end": "2024-09-05",
+  "start": "2024-08-30",
+  "end": "2024-09-06",
   "package": "styled-component",
   "downloads": [
-    {
-      "downloads": 375,
-      "day": "2024-08-29"
-    },
     {
       "downloads": 369,
       "day": "2024-08-30"
@@ -34,6 +30,10 @@
     {
       "downloads": 331,
       "day": "2024-09-05"
+    },
+    {
+      "downloads": 280,
+      "day": "2024-09-06"
     }
   ]
 }
