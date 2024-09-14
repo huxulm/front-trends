@@ -6,5 +6,7 @@
   "highcharts",
   "plotly.js",
   "reaviz",
-  "framer-motion"
+  "framer-motion",
+  "victory",
+  "react-vis"
 ]

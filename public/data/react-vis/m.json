@@ -1,26 +1,26 @@
 {
   "start": "2024-08-07",
   "end": "2024-09-07",
-  "package": "@visx/point",
+  "package": "react-vis",
   "downloads": [
     {
-      "downloads": 84316,
+      "downloads": 13736,
       "day": "2024-08-07"
     },
     {
-      "downloads": 93429,
+      "downloads": 12155,
       "day": "2024-08-14"
     },
     {
-      "downloads": 86642,
+      "downloads": 15007,
       "day": "2024-08-21"
     },
     {
-      "downloads": 88552,
+      "downloads": 13845,
       "day": "2024-08-28"
     },
     {
-      "downloads": 88478,
+      "downloads": 14480,
       "day": "2024-09-04"
     }
   ]

@@ -1,38 +1,38 @@
 {
   "start": "2024-08-31",
   "end": "2024-09-07",
-  "package": "@visx/grid",
+  "package": "react-vis",
   "downloads": [
     {
-      "downloads": 18052,
+      "downloads": 2994,
       "day": "2024-08-31"
     },
     {
-      "downloads": 22921,
+      "downloads": 2642,
       "day": "2024-09-01"
     },
     {
-      "downloads": 43795,
+      "downloads": 8010,
       "day": "2024-09-02"
     },
     {
-      "downloads": 62803,
+      "downloads": 13082,
       "day": "2024-09-03"
     },
     {
-      "downloads": 71939,
+      "downloads": 14480,
       "day": "2024-09-04"
     },
     {
-      "downloads": 65006,
+      "downloads": 15009,
       "day": "2024-09-05"
     },
     {
-      "downloads": 57976,
+      "downloads": 14111,
       "day": "2024-09-06"
     },
     {
-      "downloads": 13476,
+      "downloads": 2621,
       "day": "2024-09-07"
     }
   ]

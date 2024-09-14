@@ -1,26 +1,26 @@
 {
   "start": "2024-08-07",
   "end": "2024-09-07",
-  "package": "@visx/legend",
+  "package": "victory",
   "downloads": [
     {
-      "downloads": 35560,
+      "downloads": 45960,
       "day": "2024-08-07"
     },
     {
-      "downloads": 40727,
+      "downloads": 44558,
       "day": "2024-08-14"
     },
     {
-      "downloads": 35869,
+      "downloads": 44648,
       "day": "2024-08-21"
     },
     {
-      "downloads": 38487,
+      "downloads": 47835,
       "day": "2024-08-28"
     },
     {
-      "downloads": 36068,
+      "downloads": 46652,
       "day": "2024-09-04"
     }
   ]
