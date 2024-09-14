@@ -1,0 +1,27 @@
+{
+  "start": "2024-08-07",
+  "end": "2024-09-07",
+  "package": "@visx/network",
+  "downloads": [
+    {
+      "downloads": 9050,
+      "day": "2024-08-07"
+    },
+    {
+      "downloads": 8259,
+      "day": "2024-08-14"
+    },
+    {
+      "downloads": 9745,
+      "day": "2024-08-21"
+    },
+    {
+      "downloads": 9894,
+      "day": "2024-08-28"
+    },
+    {
+      "downloads": 11289,
+      "day": "2024-09-04"
+    }
+  ]
+}

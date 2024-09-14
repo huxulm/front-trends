@@ -1,0 +1,27 @@
+{
+  "start": "2024-08-07",
+  "end": "2024-09-07",
+  "package": "@visx/mock-data",
+  "downloads": [
+    {
+      "downloads": 15161,
+      "day": "2024-08-07"
+    },
+    {
+      "downloads": 17236,
+      "day": "2024-08-14"
+    },
+    {
+      "downloads": 17440,
+      "day": "2024-08-21"
+    },
+    {
+      "downloads": 17577,
+      "day": "2024-08-28"
+    },
+    {
+      "downloads": 20178,
+      "day": "2024-09-04"
+    }
+  ]
+}
