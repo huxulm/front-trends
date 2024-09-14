@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-06",
-  "end": "2024-09-06",
+  "start": "2024-08-07",
+  "end": "2024-09-07",
   "package": "@visx/mock-data",
   "downloads": [
     {
-      "downloads": 14196,
-      "day": "2024-08-06"
+      "downloads": 15161,
+      "day": "2024-08-07"
     },
     {
-      "downloads": 18161,
-      "day": "2024-08-13"
+      "downloads": 17236,
+      "day": "2024-08-14"
     },
     {
-      "downloads": 18031,
-      "day": "2024-08-20"
+      "downloads": 17440,
+      "day": "2024-08-21"
     },
     {
-      "downloads": 16461,
-      "day": "2024-08-27"
+      "downloads": 17577,
+      "day": "2024-08-28"
     },
     {
-      "downloads": 17213,
-      "day": "2024-09-03"
+      "downloads": 20178,
+      "day": "2024-09-04"
     }
   ]
 }

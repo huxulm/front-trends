@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-06",
-  "end": "2024-09-06",
+  "start": "2024-08-07",
+  "end": "2024-09-07",
   "package": "d3-scale-chromatic",
   "downloads": [
     {
-      "downloads": 576003,
-      "day": "2024-08-06"
+      "downloads": 585381,
+      "day": "2024-08-07"
     },
     {
-      "downloads": 574872,
-      "day": "2024-08-13"
+      "downloads": 547622,
+      "day": "2024-08-14"
     },
     {
-      "downloads": 587698,
-      "day": "2024-08-20"
+      "downloads": 566374,
+      "day": "2024-08-21"
     },
     {
-      "downloads": 606910,
-      "day": "2024-08-27"
+      "downloads": 614961,
+      "day": "2024-08-28"
     },
     {
-      "downloads": 595223,
-      "day": "2024-09-03"
+      "downloads": 632072,
+      "day": "2024-09-04"
     }
   ]
 }
