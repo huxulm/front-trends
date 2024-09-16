@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-08",
-  "end": "2024-09-08",
+  "start": "2024-08-09",
+  "end": "2024-09-09",
   "package": "@visx/xychart",
   "downloads": [
     {
-      "downloads": 48274,
-      "day": "2024-08-08"
+      "downloads": 35417,
+      "day": "2024-08-09"
     },
     {
-      "downloads": 35390,
-      "day": "2024-08-15"
+      "downloads": 30645,
+      "day": "2024-08-16"
     },
     {
-      "downloads": 40572,
-      "day": "2024-08-22"
+      "downloads": 33631,
+      "day": "2024-08-23"
     },
     {
-      "downloads": 43486,
-      "day": "2024-08-29"
+      "downloads": 29974,
+      "day": "2024-08-30"
     },
     {
-      "downloads": 34883,
-      "day": "2024-09-05"
+      "downloads": 29940,
+      "day": "2024-09-06"
     }
   ]
 }

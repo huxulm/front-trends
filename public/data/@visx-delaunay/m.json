@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-08",
-  "end": "2024-09-08",
+  "start": "2024-08-09",
+  "end": "2024-09-09",
   "package": "@visx/delaunay",
   "downloads": [
     {
-      "downloads": 4132,
-      "day": "2024-08-08"
+      "downloads": 3775,
+      "day": "2024-08-09"
     },
     {
-      "downloads": 4063,
-      "day": "2024-08-15"
+      "downloads": 4424,
+      "day": "2024-08-16"
     },
     {
-      "downloads": 5526,
-      "day": "2024-08-22"
+      "downloads": 5071,
+      "day": "2024-08-23"
     },
     {
-      "downloads": 4526,
-      "day": "2024-08-29"
+      "downloads": 3120,
+      "day": "2024-08-30"
     },
     {
-      "downloads": 4713,
-      "day": "2024-09-05"
+      "downloads": 4501,
+      "day": "2024-09-06"
     }
   ]
 }
