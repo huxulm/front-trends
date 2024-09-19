@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-11",
-  "end": "2024-09-11",
+  "start": "2024-08-12",
+  "end": "2024-09-12",
   "package": "@visx/group",
   "downloads": [
     {
-      "downloads": 16587,
-      "day": "2024-08-11"
+      "downloads": 98912,
+      "day": "2024-08-12"
     },
     {
-      "downloads": 17234,
-      "day": "2024-08-18"
+      "downloads": 93696,
+      "day": "2024-08-19"
     },
     {
-      "downloads": 15961,
-      "day": "2024-08-25"
+      "downloads": 90989,
+      "day": "2024-08-26"
     },
     {
-      "downloads": 27083,
-      "day": "2024-09-01"
+      "downloads": 61874,
+      "day": "2024-09-02"
     },
     {
-      "downloads": 15217,
-      "day": "2024-09-08"
+      "downloads": 97295,
+      "day": "2024-09-09"
     }
   ]
 }
