@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-12",
-  "end": "2024-09-12",
+  "start": "2024-08-13",
+  "end": "2024-09-13",
   "package": "@visx/wordcloud",
   "downloads": [
     {
-      "downloads": 7524,
-      "day": "2024-08-12"
+      "downloads": 7295,
+      "day": "2024-08-13"
     },
     {
-      "downloads": 7934,
-      "day": "2024-08-19"
+      "downloads": 7440,
+      "day": "2024-08-20"
     },
     {
-      "downloads": 7687,
-      "day": "2024-08-26"
+      "downloads": 7446,
+      "day": "2024-08-27"
     },
     {
-      "downloads": 5640,
-      "day": "2024-09-02"
+      "downloads": 7548,
+      "day": "2024-09-03"
     },
     {
-      "downloads": 8239,
-      "day": "2024-09-09"
+      "downloads": 8270,
+      "day": "2024-09-10"
     }
   ]
 }

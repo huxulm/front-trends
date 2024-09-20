@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-12",
-  "end": "2024-09-12",
+  "start": "2024-08-13",
+  "end": "2024-09-13",
   "package": "@visx/annotation",
   "downloads": [
     {
-      "downloads": 37779,
-      "day": "2024-08-12"
+      "downloads": 44776,
+      "day": "2024-08-13"
     },
     {
-      "downloads": 38724,
-      "day": "2024-08-19"
+      "downloads": 44902,
+      "day": "2024-08-20"
     },
     {
-      "downloads": 36823,
-      "day": "2024-08-26"
+      "downloads": 41843,
+      "day": "2024-08-27"
     },
     {
-      "downloads": 27611,
-      "day": "2024-09-02"
+      "downloads": 35941,
+      "day": "2024-09-03"
     },
     {
-      "downloads": 39546,
-      "day": "2024-09-09"
+      "downloads": 42323,
+      "day": "2024-09-10"
     }
   ]
 }

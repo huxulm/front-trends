@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-12",
-  "end": "2024-09-12",
+  "start": "2024-08-13",
+  "end": "2024-09-13",
   "package": "@visx/clip-path",
   "downloads": [
     {
-      "downloads": 11943,
-      "day": "2024-08-12"
+      "downloads": 12278,
+      "day": "2024-08-13"
     },
     {
-      "downloads": 13345,
-      "day": "2024-08-19"
+      "downloads": 12887,
+      "day": "2024-08-20"
     },
     {
-      "downloads": 12214,
-      "day": "2024-08-26"
+      "downloads": 12909,
+      "day": "2024-08-27"
     },
     {
-      "downloads": 9035,
-      "day": "2024-09-02"
+      "downloads": 12730,
+      "day": "2024-09-03"
     },
     {
-      "downloads": 13184,
-      "day": "2024-09-09"
+      "downloads": 13831,
+      "day": "2024-09-10"
     }
   ]
 }
