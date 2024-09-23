@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-13",
-  "end": "2024-09-13",
+  "start": "2024-08-16",
+  "end": "2024-09-16",
   "package": "plotly.js",
   "downloads": [
     {
-      "downloads": 39229,
-      "day": "2024-08-13"
+      "downloads": 29562,
+      "day": "2024-08-16"
     },
     {
-      "downloads": 41679,
-      "day": "2024-08-20"
+      "downloads": 34819,
+      "day": "2024-08-23"
     },
     {
-      "downloads": 41436,
-      "day": "2024-08-27"
+      "downloads": 36751,
+      "day": "2024-08-30"
     },
     {
-      "downloads": 40738,
-      "day": "2024-09-03"
+      "downloads": 36121,
+      "day": "2024-09-06"
     },
     {
-      "downloads": 41608,
-      "day": "2024-09-10"
+      "downloads": 40168,
+      "day": "2024-09-13"
     }
   ]
 }
