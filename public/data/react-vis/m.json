@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-16",
-  "end": "2024-09-16",
+  "start": "2024-08-17",
+  "end": "2024-09-17",
   "package": "react-vis",
   "downloads": [
     {
-      "downloads": 10955,
-      "day": "2024-08-16"
+      "downloads": 2204,
+      "day": "2024-08-17"
     },
     {
-      "downloads": 12783,
-      "day": "2024-08-23"
+      "downloads": 2634,
+      "day": "2024-08-24"
     },
     {
-      "downloads": 11383,
-      "day": "2024-08-30"
+      "downloads": 2994,
+      "day": "2024-08-31"
     },
     {
-      "downloads": 14111,
-      "day": "2024-09-06"
+      "downloads": 2621,
+      "day": "2024-09-07"
     },
     {
-      "downloads": 12043,
-      "day": "2024-09-13"
+      "downloads": 3270,
+      "day": "2024-09-14"
     }
   ]
 }
