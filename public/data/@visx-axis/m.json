@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-17",
-  "end": "2024-09-17",
+  "start": "2024-08-21",
+  "end": "2024-09-21",
   "package": "@visx/axis",
   "downloads": [
     {
-      "downloads": 17987,
-      "day": "2024-08-17"
+      "downloads": 77430,
+      "day": "2024-08-21"
     },
     {
-      "downloads": 14833,
-      "day": "2024-08-24"
+      "downloads": 80699,
+      "day": "2024-08-28"
     },
     {
-      "downloads": 18842,
-      "day": "2024-08-31"
+      "downloads": 82421,
+      "day": "2024-09-04"
     },
     {
-      "downloads": 14611,
-      "day": "2024-09-07"
+      "downloads": 76197,
+      "day": "2024-09-11"
     },
     {
-      "downloads": 14125,
-      "day": "2024-09-14"
+      "downloads": 78087,
+      "day": "2024-09-18"
     }
   ]
 }

@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-17",
-  "end": "2024-09-17",
+  "start": "2024-08-21",
+  "end": "2024-09-21",
   "package": "@visx/marker",
   "downloads": [
     {
-      "downloads": 1110,
-      "day": "2024-08-17"
+      "downloads": 10742,
+      "day": "2024-08-21"
     },
     {
-      "downloads": 1219,
-      "day": "2024-08-24"
+      "downloads": 11835,
+      "day": "2024-08-28"
     },
     {
-      "downloads": 1057,
-      "day": "2024-08-31"
+      "downloads": 12369,
+      "day": "2024-09-04"
     },
     {
-      "downloads": 1064,
-      "day": "2024-09-07"
+      "downloads": 12026,
+      "day": "2024-09-11"
     },
     {
-      "downloads": 1379,
-      "day": "2024-09-14"
+      "downloads": 11074,
+      "day": "2024-09-18"
     }
   ]
 }
