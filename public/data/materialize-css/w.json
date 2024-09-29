@@ -1,12 +1,8 @@
 {
-  "start": "2024-09-14",
-  "end": "2024-09-21",
+  "start": "2024-09-15",
+  "end": "2024-09-22",
   "package": "materialize-css",
   "downloads": [
-    {
-      "downloads": 705,
-      "day": "2024-09-14"
-    },
     {
       "downloads": 750,
       "day": "2024-09-15"
@@ -34,6 +30,10 @@
     {
       "downloads": 740,
       "day": "2024-09-21"
+    },
+    {
+      "downloads": 710,
+      "day": "2024-09-22"
     }
   ]
 }
