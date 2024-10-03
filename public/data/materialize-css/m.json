@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-23",
-  "end": "2024-09-23",
+  "start": "2024-08-27",
+  "end": "2024-09-26",
   "package": "materialize-css",
   "downloads": [
     {
-      "downloads": 3300,
-      "day": "2024-08-23"
+      "downloads": 4540,
+      "day": "2024-08-27"
     },
     {
-      "downloads": 3474,
-      "day": "2024-08-30"
+      "downloads": 4197,
+      "day": "2024-09-03"
     },
     {
-      "downloads": 3641,
-      "day": "2024-09-06"
+      "downloads": 4457,
+      "day": "2024-09-10"
     },
     {
-      "downloads": 3490,
-      "day": "2024-09-13"
+      "downloads": 4558,
+      "day": "2024-09-17"
     },
     {
-      "downloads": 3529,
-      "day": "2024-09-20"
+      "downloads": 4448,
+      "day": "2024-09-24"
     }
   ]
 }
