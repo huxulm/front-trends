@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-27",
-  "end": "2024-09-26",
+  "start": "2024-08-28",
+  "end": "2024-09-27",
   "package": "reaviz",
   "downloads": [
     {
-      "downloads": 1787,
-      "day": "2024-08-27"
+      "downloads": 1573,
+      "day": "2024-08-28"
     },
     {
-      "downloads": 1220,
-      "day": "2024-09-03"
+      "downloads": 1515,
+      "day": "2024-09-04"
     },
     {
-      "downloads": 1579,
-      "day": "2024-09-10"
+      "downloads": 1547,
+      "day": "2024-09-11"
     },
     {
-      "downloads": 1374,
-      "day": "2024-09-17"
+      "downloads": 1584,
+      "day": "2024-09-18"
     },
     {
-      "downloads": 1506,
-      "day": "2024-09-24"
+      "downloads": 1577,
+      "day": "2024-09-25"
     }
   ]
 }
