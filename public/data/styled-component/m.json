@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-28",
-  "end": "2024-09-27",
+  "start": "2024-08-29",
+  "end": "2024-09-28",
   "package": "styled-component",
   "downloads": [
     {
-      "downloads": 338,
-      "day": "2024-08-28"
+      "downloads": 375,
+      "day": "2024-08-29"
     },
     {
-      "downloads": 472,
-      "day": "2024-09-04"
+      "downloads": 331,
+      "day": "2024-09-05"
     },
     {
-      "downloads": 359,
-      "day": "2024-09-11"
+      "downloads": 379,
+      "day": "2024-09-12"
     },
     {
-      "downloads": 422,
-      "day": "2024-09-18"
+      "downloads": 378,
+      "day": "2024-09-19"
     },
     {
-      "downloads": 339,
-      "day": "2024-09-25"
+      "downloads": 353,
+      "day": "2024-09-26"
     }
   ]
 }

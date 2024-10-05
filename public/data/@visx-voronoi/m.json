@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-28",
-  "end": "2024-09-27",
+  "start": "2024-08-29",
+  "end": "2024-09-28",
   "package": "@visx/voronoi",
   "downloads": [
     {
-      "downloads": 39106,
-      "day": "2024-08-28"
+      "downloads": 44456,
+      "day": "2024-08-29"
     },
     {
-      "downloads": 40456,
-      "day": "2024-09-04"
+      "downloads": 35570,
+      "day": "2024-09-05"
     },
     {
-      "downloads": 36296,
-      "day": "2024-09-11"
+      "downloads": 36147,
+      "day": "2024-09-12"
     },
     {
-      "downloads": 35247,
-      "day": "2024-09-18"
+      "downloads": 32995,
+      "day": "2024-09-19"
     },
     {
-      "downloads": 37601,
-      "day": "2024-09-25"
+      "downloads": 37667,
+      "day": "2024-09-26"
     }
   ]
 }

@@ -1,219 +1,219 @@
 {
-  "start": "2023-09-27",
-  "end": "2024-09-27",
+  "start": "2023-09-28",
+  "end": "2024-09-28",
   "package": "@visx/brush",
   "downloads": [
     {
-      "downloads": 10593,
-      "day": "2023-09-27"
+      "downloads": 9096,
+      "day": "2023-09-28"
     },
     {
-      "downloads": 11029,
-      "day": "2023-10-04"
+      "downloads": 10252,
+      "day": "2023-10-05"
     },
     {
-      "downloads": 9709,
-      "day": "2023-10-11"
+      "downloads": 8945,
+      "day": "2023-10-12"
     },
     {
-      "downloads": 9640,
-      "day": "2023-10-18"
+      "downloads": 10115,
+      "day": "2023-10-19"
     },
     {
-      "downloads": 9836,
-      "day": "2023-10-25"
+      "downloads": 8664,
+      "day": "2023-10-26"
     },
     {
-      "downloads": 7261,
-      "day": "2023-11-01"
+      "downloads": 3431,
+      "day": "2023-11-02"
     },
     {
-      "downloads": 10254,
-      "day": "2023-11-08"
+      "downloads": 9001,
+      "day": "2023-11-09"
     },
     {
-      "downloads": 10020,
-      "day": "2023-11-15"
+      "downloads": 9423,
+      "day": "2023-11-16"
     },
     {
-      "downloads": 9780,
-      "day": "2023-11-22"
+      "downloads": 6187,
+      "day": "2023-11-23"
     },
     {
-      "downloads": 12204,
-      "day": "2023-11-29"
+      "downloads": 10800,
+      "day": "2023-11-30"
     },
     {
-      "downloads": 10017,
-      "day": "2023-12-06"
+      "downloads": 9477,
+      "day": "2023-12-07"
     },
     {
-      "downloads": 9332,
-      "day": "2023-12-13"
+      "downloads": 9474,
+      "day": "2023-12-14"
     },
     {
-      "downloads": 8611,
-      "day": "2023-12-20"
+      "downloads": 7597,
+      "day": "2023-12-21"
     },
     {
-      "downloads": 3706,
-      "day": "2023-12-27"
+      "downloads": 3989,
+      "day": "2023-12-28"
     },
     {
-      "downloads": 8454,
-      "day": "2024-01-03"
+      "downloads": 8597,
+      "day": "2024-01-04"
     },
     {
-      "downloads": 10401,
-      "day": "2024-01-10"
+      "downloads": 9470,
+      "day": "2024-01-11"
     },
     {
-      "downloads": 11287,
-      "day": "2024-01-17"
+      "downloads": 13766,
+      "day": "2024-01-18"
     },
     {
-      "downloads": 17292,
-      "day": "2024-01-24"
+      "downloads": 17754,
+      "day": "2024-01-25"
     },
     {
-      "downloads": 17657,
-      "day": "2024-01-31"
+      "downloads": 15790,
+      "day": "2024-02-01"
     },
     {
-      "downloads": 17703,
-      "day": "2024-02-07"
+      "downloads": 17190,
+      "day": "2024-02-08"
     },
     {
-      "downloads": 14964,
-      "day": "2024-02-14"
+      "downloads": 16927,
+      "day": "2024-02-15"
     },
     {
-      "downloads": 23077,
-      "day": "2024-02-21"
+      "downloads": 23305,
+      "day": "2024-02-22"
     },
     {
-      "downloads": 17489,
-      "day": "2024-02-28"
+      "downloads": 19860,
+      "day": "2024-02-29"
     },
     {
-      "downloads": 19951,
-      "day": "2024-03-06"
+      "downloads": 18460,
+      "day": "2024-03-07"
     },
     {
-      "downloads": 19755,
-      "day": "2024-03-13"
+      "downloads": 17603,
+      "day": "2024-03-14"
     },
     {
-      "downloads": 15299,
-      "day": "2024-03-20"
+      "downloads": 15088,
+      "day": "2024-03-21"
     },
     {
-      "downloads": 15421,
-      "day": "2024-03-27"
+      "downloads": 14411,
+      "day": "2024-03-28"
     },
     {
-      "downloads": 15044,
-      "day": "2024-04-03"
+      "downloads": 15790,
+      "day": "2024-04-04"
     },
     {
-      "downloads": 12377,
-      "day": "2024-04-10"
+      "downloads": 13240,
+      "day": "2024-04-11"
     },
     {
-      "downloads": 15750,
-      "day": "2024-04-17"
+      "downloads": 15710,
+      "day": "2024-04-18"
     },
     {
-      "downloads": 13817,
-      "day": "2024-04-24"
+      "downloads": 12158,
+      "day": "2024-04-25"
     },
     {
-      "downloads": 10259,
-      "day": "2024-05-01"
+      "downloads": 15171,
+      "day": "2024-05-02"
     },
     {
-      "downloads": 13686,
-      "day": "2024-05-08"
+      "downloads": 12583,
+      "day": "2024-05-09"
     },
     {
-      "downloads": 14371,
-      "day": "2024-05-15"
+      "downloads": 16937,
+      "day": "2024-05-16"
     },
     {
-      "downloads": 15050,
-      "day": "2024-05-22"
+      "downloads": 15120,
+      "day": "2024-05-23"
     },
     {
-      "downloads": 16393,
-      "day": "2024-05-29"
+      "downloads": 17088,
+      "day": "2024-05-30"
     },
     {
-      "downloads": 16065,
-      "day": "2024-06-05"
+      "downloads": 15879,
+      "day": "2024-06-06"
     },
     {
-      "downloads": 16556,
-      "day": "2024-06-12"
+      "downloads": 15200,
+      "day": "2024-06-13"
     },
     {
-      "downloads": 11181,
-      "day": "2024-06-19"
+      "downloads": 10277,
+      "day": "2024-06-20"
     },
     {
-      "downloads": 11378,
-      "day": "2024-06-26"
+      "downloads": 11962,
+      "day": "2024-06-27"
     },
     {
-      "downloads": 10092,
-      "day": "2024-07-03"
+      "downloads": 8173,
+      "day": "2024-07-04"
     },
     {
-      "downloads": 10733,
-      "day": "2024-07-10"
+      "downloads": 11478,
+      "day": "2024-07-11"
     },
     {
-      "downloads": 11113,
-      "day": "2024-07-17"
+      "downloads": 11041,
+      "day": "2024-07-18"
     },
     {
-      "downloads": 11236,
-      "day": "2024-07-24"
+      "downloads": 12456,
+      "day": "2024-07-25"
     },
     {
-      "downloads": 12645,
-      "day": "2024-07-31"
+      "downloads": 12483,
+      "day": "2024-08-01"
     },
     {
-      "downloads": 11289,
-      "day": "2024-08-07"
+      "downloads": 10459,
+      "day": "2024-08-08"
     },
     {
-      "downloads": 11371,
-      "day": "2024-08-14"
+      "downloads": 8598,
+      "day": "2024-08-15"
     },
     {
-      "downloads": 11503,
-      "day": "2024-08-21"
+      "downloads": 12273,
+      "day": "2024-08-22"
     },
     {
-      "downloads": 12606,
-      "day": "2024-08-28"
+      "downloads": 11868,
+      "day": "2024-08-29"
     },
     {
-      "downloads": 13622,
-      "day": "2024-09-04"
+      "downloads": 11926,
+      "day": "2024-09-05"
     },
     {
-      "downloads": 12379,
-      "day": "2024-09-11"
+      "downloads": 11404,
+      "day": "2024-09-12"
     },
     {
-      "downloads": 11644,
-      "day": "2024-09-18"
+      "downloads": 12393,
+      "day": "2024-09-19"
     },
     {
-      "downloads": 12511,
-      "day": "2024-09-25"
+      "downloads": 12829,
+      "day": "2024-09-26"
     }
   ]
 }
