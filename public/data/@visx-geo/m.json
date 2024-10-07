@@ -1,27 +1,27 @@
 {
-  "start": "2024-08-29",
-  "end": "2024-09-28",
+  "start": "2024-08-31",
+  "end": "2024-09-30",
   "package": "@visx/geo",
   "downloads": [
     {
-      "downloads": 20519,
-      "day": "2024-08-29"
+      "downloads": 2307,
+      "day": "2024-08-31"
     },
     {
-      "downloads": 16159,
-      "day": "2024-09-05"
+      "downloads": 2986,
+      "day": "2024-09-07"
     },
     {
-      "downloads": 19376,
-      "day": "2024-09-12"
+      "downloads": 1850,
+      "day": "2024-09-14"
     },
     {
-      "downloads": 17673,
-      "day": "2024-09-19"
+      "downloads": 1785,
+      "day": "2024-09-21"
     },
     {
-      "downloads": 19240,
-      "day": "2024-09-26"
+      "downloads": 3377,
+      "day": "2024-09-28"
     }
   ]
 }
