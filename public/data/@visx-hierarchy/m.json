@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-05",
-  "end": "2024-10-05",
+  "start": "2024-09-08",
+  "end": "2024-10-08",
   "package": "@visx/hierarchy",
   "downloads": [
     {
-      "downloads": 14863,
-      "day": "2024-09-05"
+      "downloads": 1940,
+      "day": "2024-09-08"
     },
     {
-      "downloads": 15401,
-      "day": "2024-09-12"
+      "downloads": 1491,
+      "day": "2024-09-15"
     },
     {
-      "downloads": 15731,
-      "day": "2024-09-19"
+      "downloads": 1416,
+      "day": "2024-09-22"
     },
     {
-      "downloads": 14875,
-      "day": "2024-09-26"
+      "downloads": 1260,
+      "day": "2024-09-29"
     },
     {
-      "downloads": 11351,
-      "day": "2024-10-03"
+      "downloads": 1481,
+      "day": "2024-10-06"
     }
   ]
 }
