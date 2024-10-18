@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-08",
-  "end": "2024-10-08",
+  "start": "2024-09-11",
+  "end": "2024-10-11",
   "package": "bulma",
   "downloads": [
     {
-      "downloads": 7035,
-      "day": "2024-09-08"
+      "downloads": 35521,
+      "day": "2024-09-11"
     },
     {
-      "downloads": 6963,
-      "day": "2024-09-15"
+      "downloads": 34934,
+      "day": "2024-09-18"
     },
     {
-      "downloads": 7624,
-      "day": "2024-09-22"
+      "downloads": 33839,
+      "day": "2024-09-25"
     },
     {
-      "downloads": 8067,
-      "day": "2024-09-29"
+      "downloads": 31266,
+      "day": "2024-10-02"
     },
     {
-      "downloads": 8077,
-      "day": "2024-10-06"
+      "downloads": 33143,
+      "day": "2024-10-09"
     }
   ]
 }

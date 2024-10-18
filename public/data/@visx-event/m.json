@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-08",
-  "end": "2024-10-08",
+  "start": "2024-09-11",
+  "end": "2024-10-11",
   "package": "@visx/event",
   "downloads": [
     {
-      "downloads": 10958,
-      "day": "2024-09-08"
+      "downloads": 68037,
+      "day": "2024-09-11"
     },
     {
-      "downloads": 9968,
-      "day": "2024-09-15"
+      "downloads": 69396,
+      "day": "2024-09-18"
     },
     {
-      "downloads": 11101,
-      "day": "2024-09-22"
+      "downloads": 70378,
+      "day": "2024-09-25"
     },
     {
-      "downloads": 10962,
-      "day": "2024-09-29"
+      "downloads": 65321,
+      "day": "2024-10-02"
     },
     {
-      "downloads": 10978,
-      "day": "2024-10-06"
+      "downloads": 69403,
+      "day": "2024-10-09"
     }
   ]
 }
