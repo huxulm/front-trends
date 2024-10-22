@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-11",
-  "end": "2024-10-11",
+  "start": "2024-09-15",
+  "end": "2024-10-15",
   "package": "@visx/glyph",
   "downloads": [
     {
-      "downloads": 37896,
-      "day": "2024-09-11"
+      "downloads": 5756,
+      "day": "2024-09-15"
     },
     {
-      "downloads": 36694,
-      "day": "2024-09-18"
+      "downloads": 6023,
+      "day": "2024-09-22"
     },
     {
-      "downloads": 39029,
-      "day": "2024-09-25"
+      "downloads": 5859,
+      "day": "2024-09-29"
     },
     {
-      "downloads": 35838,
-      "day": "2024-10-02"
+      "downloads": 6595,
+      "day": "2024-10-06"
     },
     {
-      "downloads": 34068,
-      "day": "2024-10-09"
+      "downloads": 6705,
+      "day": "2024-10-13"
     }
   ]
 }

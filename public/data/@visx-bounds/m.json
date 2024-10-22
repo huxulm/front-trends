@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-11",
-  "end": "2024-10-11",
+  "start": "2024-09-15",
+  "end": "2024-10-15",
   "package": "@visx/bounds",
   "downloads": [
     {
-      "downloads": 68663,
-      "day": "2024-09-11"
+      "downloads": 8950,
+      "day": "2024-09-15"
     },
     {
-      "downloads": 69794,
-      "day": "2024-09-18"
+      "downloads": 10659,
+      "day": "2024-09-22"
     },
     {
-      "downloads": 71326,
-      "day": "2024-09-25"
+      "downloads": 11380,
+      "day": "2024-09-29"
     },
     {
-      "downloads": 66486,
-      "day": "2024-10-02"
+      "downloads": 10832,
+      "day": "2024-10-06"
     },
     {
-      "downloads": 69911,
-      "day": "2024-10-09"
+      "downloads": 11142,
+      "day": "2024-10-13"
     }
   ]
 }

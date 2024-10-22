@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-11",
-  "end": "2024-10-11",
+  "start": "2024-09-15",
+  "end": "2024-10-15",
   "package": "@visx/grid",
   "downloads": [
     {
-      "downloads": 66294,
-      "day": "2024-09-11"
+      "downloads": 12060,
+      "day": "2024-09-15"
     },
     {
-      "downloads": 66371,
-      "day": "2024-09-18"
+      "downloads": 12917,
+      "day": "2024-09-22"
     },
     {
-      "downloads": 68510,
-      "day": "2024-09-25"
+      "downloads": 13162,
+      "day": "2024-09-29"
     },
     {
-      "downloads": 64889,
-      "day": "2024-10-02"
+      "downloads": 12858,
+      "day": "2024-10-06"
     },
     {
-      "downloads": 67665,
-      "day": "2024-10-09"
+      "downloads": 13610,
+      "day": "2024-10-13"
     }
   ]
 }
