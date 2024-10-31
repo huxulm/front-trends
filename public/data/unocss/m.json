@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-21",
-  "end": "2024-10-21",
+  "start": "2024-09-24",
+  "end": "2024-10-24",
   "package": "unocss",
   "downloads": [
     {
-      "downloads": 9578,
-      "day": "2024-09-21"
+      "downloads": 32718,
+      "day": "2024-09-24"
     },
     {
-      "downloads": 10091,
-      "day": "2024-09-28"
+      "downloads": 32751,
+      "day": "2024-10-01"
     },
     {
-      "downloads": 9556,
-      "day": "2024-10-05"
+      "downloads": 34325,
+      "day": "2024-10-08"
     },
     {
-      "downloads": 11275,
-      "day": "2024-10-12"
+      "downloads": 32606,
+      "day": "2024-10-15"
     },
     {
-      "downloads": 10860,
-      "day": "2024-10-19"
+      "downloads": 34117,
+      "day": "2024-10-22"
     }
   ]
 }

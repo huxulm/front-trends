@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-21",
-  "end": "2024-10-21",
+  "start": "2024-09-24",
+  "end": "2024-10-24",
   "package": "highcharts",
   "downloads": [
     {
-      "downloads": 27318,
-      "day": "2024-09-21"
+      "downloads": 248959,
+      "day": "2024-09-24"
     },
     {
-      "downloads": 29830,
-      "day": "2024-09-28"
+      "downloads": 246759,
+      "day": "2024-10-01"
     },
     {
-      "downloads": 27921,
-      "day": "2024-10-05"
+      "downloads": 250987,
+      "day": "2024-10-08"
     },
     {
-      "downloads": 27431,
-      "day": "2024-10-12"
+      "downloads": 244810,
+      "day": "2024-10-15"
     },
     {
-      "downloads": 30905,
-      "day": "2024-10-19"
+      "downloads": 251124,
+      "day": "2024-10-22"
     }
   ]
 }
