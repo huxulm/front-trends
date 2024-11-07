@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-27",
-  "end": "2024-10-28",
+  "start": "2024-09-30",
+  "end": "2024-10-31",
   "package": "@visx/brush",
   "downloads": [
     {
-      "downloads": 10318,
-      "day": "2024-09-27"
+      "downloads": 12942,
+      "day": "2024-09-30"
     },
     {
-      "downloads": 9185,
-      "day": "2024-10-04"
+      "downloads": 10241,
+      "day": "2024-10-07"
     },
     {
-      "downloads": 8663,
-      "day": "2024-10-11"
+      "downloads": 8510,
+      "day": "2024-10-14"
     },
     {
-      "downloads": 9456,
-      "day": "2024-10-18"
+      "downloads": 10596,
+      "day": "2024-10-21"
     },
     {
-      "downloads": 8435,
-      "day": "2024-10-25"
+      "downloads": 12225,
+      "day": "2024-10-28"
     }
   ]
 }

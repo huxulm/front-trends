@@ -1,27 +1,27 @@
 {
-  "start": "2024-09-27",
-  "end": "2024-10-28",
+  "start": "2024-09-30",
+  "end": "2024-10-31",
   "package": "framer-motion",
   "downloads": [
     {
-      "downloads": 710289,
-      "day": "2024-09-27"
+      "downloads": 800291,
+      "day": "2024-09-30"
     },
     {
-      "downloads": 697023,
-      "day": "2024-10-04"
+      "downloads": 805950,
+      "day": "2024-10-07"
     },
     {
-      "downloads": 692954,
-      "day": "2024-10-11"
+      "downloads": 717076,
+      "day": "2024-10-14"
     },
     {
-      "downloads": 719924,
-      "day": "2024-10-18"
+      "downloads": 829271,
+      "day": "2024-10-21"
     },
     {
-      "downloads": 759945,
-      "day": "2024-10-25"
+      "downloads": 868832,
+      "day": "2024-10-28"
     }
   ]
 }
