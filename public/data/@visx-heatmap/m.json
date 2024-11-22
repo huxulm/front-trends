@@ -1,27 +1,27 @@
 {
-  "start": "2024-10-11",
-  "end": "2024-11-11",
+  "start": "2024-10-15",
+  "end": "2024-11-15",
   "package": "@visx/heatmap",
   "downloads": [
     {
-      "downloads": 8156,
-      "day": "2024-10-11"
+      "downloads": 10463,
+      "day": "2024-10-15"
     },
     {
-      "downloads": 8409,
-      "day": "2024-10-18"
+      "downloads": 10801,
+      "day": "2024-10-22"
     },
     {
-      "downloads": 7683,
-      "day": "2024-10-25"
+      "downloads": 11626,
+      "day": "2024-10-29"
     },
     {
-      "downloads": 6749,
-      "day": "2024-11-01"
+      "downloads": 9406,
+      "day": "2024-11-05"
     },
     {
-      "downloads": 10117,
-      "day": "2024-11-08"
+      "downloads": 9446,
+      "day": "2024-11-12"
     }
   ]
 }
