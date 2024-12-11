@@ -1,27 +1,27 @@
 {
-  "start": "2024-10-15",
-  "end": "2024-11-15",
+  "start": "2024-11-04",
+  "end": "2024-12-04",
   "package": "@visx/gradient",
   "downloads": [
     {
-      "downloads": 38314,
-      "day": "2024-10-15"
+      "downloads": 34673,
+      "day": "2024-11-04"
     },
     {
-      "downloads": 40742,
-      "day": "2024-10-22"
+      "downloads": 28165,
+      "day": "2024-11-11"
     },
     {
-      "downloads": 41862,
-      "day": "2024-10-29"
+      "downloads": 36033,
+      "day": "2024-11-18"
     },
     {
-      "downloads": 34046,
-      "day": "2024-11-05"
+      "downloads": 38713,
+      "day": "2024-11-25"
     },
     {
-      "downloads": 37370,
-      "day": "2024-11-12"
+      "downloads": 35742,
+      "day": "2024-12-02"
     }
   ]
 }
