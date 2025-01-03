@@ -1,39 +1,39 @@
 {
-  "start": "2024-11-27",
-  "end": "2024-12-04",
+  "start": "2024-12-20",
+  "end": "2024-12-27",
   "package": "@visx/tooltip",
   "downloads": [
     {
-      "downloads": 67747,
-      "day": "2024-11-27"
+      "downloads": 54202,
+      "day": "2024-12-20"
     },
     {
-      "downloads": 51126,
-      "day": "2024-11-28"
+      "downloads": 11217,
+      "day": "2024-12-21"
     },
     {
-      "downloads": 40445,
-      "day": "2024-11-29"
+      "downloads": 9877,
+      "day": "2024-12-22"
     },
     {
-      "downloads": 11988,
-      "day": "2024-11-30"
+      "downloads": 37595,
+      "day": "2024-12-23"
     },
     {
-      "downloads": 15534,
-      "day": "2024-12-01"
+      "downloads": 24269,
+      "day": "2024-12-24"
     },
     {
-      "downloads": 78036,
-      "day": "2024-12-02"
+      "downloads": 11657,
+      "day": "2024-12-25"
     },
     {
-      "downloads": 78744,
-      "day": "2024-12-03"
+      "downloads": 23636,
+      "day": "2024-12-26"
     },
     {
-      "downloads": 79750,
-      "day": "2024-12-04"
+      "downloads": 22907,
+      "day": "2024-12-27"
     }
   ]
 }

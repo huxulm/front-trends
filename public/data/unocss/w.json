@@ -1,39 +1,39 @@
 {
-  "start": "2024-11-27",
-  "end": "2024-12-04",
+  "start": "2024-12-20",
+  "end": "2024-12-27",
   "package": "unocss",
   "downloads": [
     {
-      "downloads": 34667,
-      "day": "2024-11-27"
+      "downloads": 26170,
+      "day": "2024-12-20"
     },
     {
-      "downloads": 32784,
-      "day": "2024-11-28"
+      "downloads": 9426,
+      "day": "2024-12-21"
     },
     {
-      "downloads": 27625,
-      "day": "2024-11-29"
+      "downloads": 9259,
+      "day": "2024-12-22"
     },
     {
-      "downloads": 11747,
-      "day": "2024-11-30"
+      "downloads": 23255,
+      "day": "2024-12-23"
     },
     {
-      "downloads": 11872,
-      "day": "2024-12-01"
+      "downloads": 18062,
+      "day": "2024-12-24"
     },
     {
-      "downloads": 36385,
-      "day": "2024-12-02"
+      "downloads": 14677,
+      "day": "2024-12-25"
     },
     {
-      "downloads": 36690,
-      "day": "2024-12-03"
+      "downloads": 17320,
+      "day": "2024-12-26"
     },
     {
-      "downloads": 34389,
-      "day": "2024-12-04"
+      "downloads": 18451,
+      "day": "2024-12-27"
     }
   ]
 }
