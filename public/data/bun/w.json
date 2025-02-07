@@ -1,39 +1,39 @@
 {
-  "start": "2024-12-20",
-  "end": "2024-12-27",
+  "start": "2025-01-24",
+  "end": "2025-01-31",
   "package": "bun",
   "downloads": [
     {
-      "downloads": 33781,
-      "day": "2024-12-20"
+      "downloads": 0,
+      "day": "2025-01-24"
     },
     {
-      "downloads": 9707,
-      "day": "2024-12-21"
+      "downloads": 10087,
+      "day": "2025-01-25"
     },
     {
-      "downloads": 6110,
-      "day": "2024-12-22"
+      "downloads": 9050,
+      "day": "2025-01-26"
     },
     {
-      "downloads": 20868,
-      "day": "2024-12-23"
+      "downloads": 33482,
+      "day": "2025-01-27"
     },
     {
-      "downloads": 15651,
-      "day": "2024-12-24"
+      "downloads": 47662,
+      "day": "2025-01-28"
     },
     {
-      "downloads": 8632,
-      "day": "2024-12-25"
+      "downloads": 44610,
+      "day": "2025-01-29"
     },
     {
-      "downloads": 12763,
-      "day": "2024-12-26"
+      "downloads": 0,
+      "day": "2025-01-30"
     },
     {
-      "downloads": 13918,
-      "day": "2024-12-27"
+      "downloads": 0,
+      "day": "2025-01-31"
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
-  "start": "2024-12-20",
-  "end": "2024-12-27",
+  "start": "2025-01-24",
+  "end": "2025-01-31",
   "package": "d3-hierarchy",
   "downloads": [
     {
-      "downloads": 632619,
-      "day": "2024-12-20"
+      "downloads": 0,
+      "day": "2025-01-24"
     },
     {
-      "downloads": 150965,
-      "day": "2024-12-21"
+      "downloads": 159318,
+      "day": "2025-01-25"
     },
     {
-      "downloads": 141422,
-      "day": "2024-12-22"
+      "downloads": 151349,
+      "day": "2025-01-26"
     },
     {
-      "downloads": 465171,
-      "day": "2024-12-23"
+      "downloads": 763205,
+      "day": "2025-01-27"
     },
     {
-      "downloads": 346131,
-      "day": "2024-12-24"
+      "downloads": 808745,
+      "day": "2025-01-28"
     },
     {
-      "downloads": 185543,
-      "day": "2024-12-25"
+      "downloads": 814599,
+      "day": "2025-01-29"
     },
     {
-      "downloads": 312443,
-      "day": "2024-12-26"
+      "downloads": 0,
+      "day": "2025-01-30"
     },
     {
-      "downloads": 321264,
-      "day": "2024-12-27"
+      "downloads": 0,
+      "day": "2025-01-31"
     }
   ]
 }

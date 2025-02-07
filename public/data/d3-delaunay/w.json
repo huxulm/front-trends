@@ -1,39 +1,39 @@
 {
-  "start": "2024-12-20",
-  "end": "2024-12-27",
+  "start": "2025-01-24",
+  "end": "2025-01-31",
   "package": "d3-delaunay",
   "downloads": [
     {
-      "downloads": 472442,
-      "day": "2024-12-20"
+      "downloads": 0,
+      "day": "2025-01-24"
     },
     {
-      "downloads": 114942,
-      "day": "2024-12-21"
+      "downloads": 127684,
+      "day": "2025-01-25"
     },
     {
-      "downloads": 104187,
-      "day": "2024-12-22"
+      "downloads": 118562,
+      "day": "2025-01-26"
     },
     {
-      "downloads": 346089,
-      "day": "2024-12-23"
+      "downloads": 602436,
+      "day": "2025-01-27"
     },
     {
-      "downloads": 247069,
-      "day": "2024-12-24"
+      "downloads": 640917,
+      "day": "2025-01-28"
     },
     {
-      "downloads": 130902,
-      "day": "2024-12-25"
+      "downloads": 630086,
+      "day": "2025-01-29"
     },
     {
-      "downloads": 225909,
-      "day": "2024-12-26"
+      "downloads": 0,
+      "day": "2025-01-30"
     },
     {
-      "downloads": 235710,
-      "day": "2024-12-27"
+      "downloads": 0,
+      "day": "2025-01-31"
     }
   ]
 }

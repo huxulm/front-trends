@@ -1,27 +1,27 @@
 {
-  "start": "2024-11-26",
-  "end": "2024-12-27",
+  "start": "2024-12-31",
+  "end": "2025-01-31",
   "package": "@visx/threshold",
   "downloads": [
     {
-      "downloads": 9267,
-      "day": "2024-11-26"
+      "downloads": 2349,
+      "day": "2024-12-31"
     },
     {
-      "downloads": 7295,
-      "day": "2024-12-03"
+      "downloads": 7468,
+      "day": "2025-01-07"
     },
     {
-      "downloads": 8906,
-      "day": "2024-12-10"
+      "downloads": 7224,
+      "day": "2025-01-14"
     },
     {
-      "downloads": 6657,
-      "day": "2024-12-17"
+      "downloads": 6687,
+      "day": "2025-01-21"
     },
     {
-      "downloads": 2956,
-      "day": "2024-12-24"
+      "downloads": 7307,
+      "day": "2025-01-28"
     }
   ]
 }

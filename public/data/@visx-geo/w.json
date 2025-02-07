@@ -1,39 +1,39 @@
 {
-  "start": "2024-12-20",
-  "end": "2024-12-27",
+  "start": "2025-01-24",
+  "end": "2025-01-31",
   "package": "@visx/geo",
   "downloads": [
     {
-      "downloads": 11508,
-      "day": "2024-12-20"
+      "downloads": 0,
+      "day": "2025-01-24"
     },
     {
-      "downloads": 2110,
-      "day": "2024-12-21"
+      "downloads": 1941,
+      "day": "2025-01-25"
     },
     {
-      "downloads": 1694,
-      "day": "2024-12-22"
+      "downloads": 2368,
+      "day": "2025-01-26"
     },
     {
-      "downloads": 6571,
-      "day": "2024-12-23"
+      "downloads": 12959,
+      "day": "2025-01-27"
     },
     {
-      "downloads": 5221,
-      "day": "2024-12-24"
+      "downloads": 12800,
+      "day": "2025-01-28"
     },
     {
-      "downloads": 1459,
-      "day": "2024-12-25"
+      "downloads": 14615,
+      "day": "2025-01-29"
     },
     {
-      "downloads": 3052,
-      "day": "2024-12-26"
+      "downloads": 0,
+      "day": "2025-01-30"
     },
     {
-      "downloads": 3227,
-      "day": "2024-12-27"
+      "downloads": 0,
+      "day": "2025-01-31"
     }
   ]
 }

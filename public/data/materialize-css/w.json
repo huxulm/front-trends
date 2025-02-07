@@ -1,39 +1,39 @@
 {
-  "start": "2024-12-20",
-  "end": "2024-12-27",
+  "start": "2025-01-24",
+  "end": "2025-01-31",
   "package": "materialize-css",
   "downloads": [
     {
-      "downloads": 3315,
-      "day": "2024-12-20"
+      "downloads": 0,
+      "day": "2025-01-24"
     },
     {
-      "downloads": 432,
-      "day": "2024-12-21"
+      "downloads": 535,
+      "day": "2025-01-25"
     },
     {
-      "downloads": 566,
-      "day": "2024-12-22"
+      "downloads": 657,
+      "day": "2025-01-26"
     },
     {
-      "downloads": 2440,
-      "day": "2024-12-23"
+      "downloads": 3976,
+      "day": "2025-01-27"
     },
     {
-      "downloads": 1604,
-      "day": "2024-12-24"
+      "downloads": 3866,
+      "day": "2025-01-28"
     },
     {
-      "downloads": 790,
-      "day": "2024-12-25"
+      "downloads": 3996,
+      "day": "2025-01-29"
     },
     {
-      "downloads": 1642,
-      "day": "2024-12-26"
+      "downloads": 0,
+      "day": "2025-01-30"
     },
     {
-      "downloads": 1604,
-      "day": "2024-12-27"
+      "downloads": 0,
+      "day": "2025-01-31"
     }
   ]
 }

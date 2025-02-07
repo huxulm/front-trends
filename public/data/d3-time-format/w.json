@@ -1,39 +1,39 @@
 {
-  "start": "2024-12-20",
-  "end": "2024-12-27",
+  "start": "2025-01-24",
+  "end": "2025-01-31",
   "package": "d3-time-format",
   "downloads": [
     {
-      "downloads": 1146267,
-      "day": "2024-12-20"
+      "downloads": 0,
+      "day": "2025-01-24"
     },
     {
-      "downloads": 281953,
-      "day": "2024-12-21"
+      "downloads": 311363,
+      "day": "2025-01-25"
     },
     {
-      "downloads": 263636,
-      "day": "2024-12-22"
+      "downloads": 306311,
+      "day": "2025-01-26"
     },
     {
-      "downloads": 856111,
-      "day": "2024-12-23"
+      "downloads": 1434388,
+      "day": "2025-01-27"
     },
     {
-      "downloads": 621105,
-      "day": "2024-12-24"
+      "downloads": 1521780,
+      "day": "2025-01-28"
     },
     {
-      "downloads": 330771,
-      "day": "2024-12-25"
+      "downloads": 1502804,
+      "day": "2025-01-29"
     },
     {
-      "downloads": 556643,
-      "day": "2024-12-26"
+      "downloads": 0,
+      "day": "2025-01-30"
     },
     {
-      "downloads": 587881,
-      "day": "2024-12-27"
+      "downloads": 0,
+      "day": "2025-01-31"
     }
   ]
 }
