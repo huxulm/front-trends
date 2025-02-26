@@ -1,39 +1,39 @@
 {
-  "start": "2025-01-24",
-  "end": "2025-01-31",
+  "start": "2025-02-12",
+  "end": "2025-02-19",
   "package": "svelte",
   "downloads": [
     {
-      "downloads": 0,
-      "day": "2025-01-24"
+      "downloads": 379876,
+      "day": "2025-02-12"
     },
     {
-      "downloads": 133019,
-      "day": "2025-01-25"
+      "downloads": 370174,
+      "day": "2025-02-13"
     },
     {
-      "downloads": 115106,
-      "day": "2025-01-26"
+      "downloads": 341568,
+      "day": "2025-02-14"
     },
     {
-      "downloads": 367087,
-      "day": "2025-01-27"
+      "downloads": 133215,
+      "day": "2025-02-15"
     },
     {
-      "downloads": 390902,
-      "day": "2025-01-28"
+      "downloads": 119282,
+      "day": "2025-02-16"
     },
     {
-      "downloads": 361059,
-      "day": "2025-01-29"
+      "downloads": 319997,
+      "day": "2025-02-17"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-30"
+      "downloads": 390560,
+      "day": "2025-02-18"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-31"
+      "downloads": 391249,
+      "day": "2025-02-19"
     }
   ]
 }

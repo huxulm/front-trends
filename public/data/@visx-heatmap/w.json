@@ -1,39 +1,39 @@
 {
-  "start": "2025-01-24",
-  "end": "2025-01-31",
+  "start": "2025-02-12",
+  "end": "2025-02-19",
   "package": "@visx/heatmap",
   "downloads": [
     {
-      "downloads": 0,
-      "day": "2025-01-24"
+      "downloads": 9164,
+      "day": "2025-02-12"
     },
     {
-      "downloads": 1154,
-      "day": "2025-01-25"
+      "downloads": 10623,
+      "day": "2025-02-13"
     },
     {
-      "downloads": 1488,
-      "day": "2025-01-26"
+      "downloads": 7844,
+      "day": "2025-02-14"
     },
     {
-      "downloads": 9834,
-      "day": "2025-01-27"
+      "downloads": 1591,
+      "day": "2025-02-15"
     },
     {
-      "downloads": 9232,
-      "day": "2025-01-28"
+      "downloads": 1229,
+      "day": "2025-02-16"
     },
     {
-      "downloads": 9248,
-      "day": "2025-01-29"
+      "downloads": 7421,
+      "day": "2025-02-17"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-30"
+      "downloads": 9748,
+      "day": "2025-02-18"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-31"
+      "downloads": 10349,
+      "day": "2025-02-19"
     }
   ]
 }

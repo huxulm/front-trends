@@ -1,39 +1,39 @@
 {
-  "start": "2025-01-24",
-  "end": "2025-01-31",
+  "start": "2025-02-12",
+  "end": "2025-02-19",
   "package": "@visx/wordcloud",
   "downloads": [
     {
-      "downloads": 0,
-      "day": "2025-01-24"
+      "downloads": 7884,
+      "day": "2025-02-12"
     },
     {
-      "downloads": 872,
-      "day": "2025-01-25"
+      "downloads": 8675,
+      "day": "2025-02-13"
     },
     {
-      "downloads": 1018,
-      "day": "2025-01-26"
+      "downloads": 7139,
+      "day": "2025-02-14"
     },
     {
-      "downloads": 7978,
-      "day": "2025-01-27"
+      "downloads": 1132,
+      "day": "2025-02-15"
     },
     {
-      "downloads": 7595,
-      "day": "2025-01-28"
+      "downloads": 1029,
+      "day": "2025-02-16"
     },
     {
-      "downloads": 8006,
-      "day": "2025-01-29"
+      "downloads": 7171,
+      "day": "2025-02-17"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-30"
+      "downloads": 8272,
+      "day": "2025-02-18"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-31"
+      "downloads": 9092,
+      "day": "2025-02-19"
     }
   ]
 }

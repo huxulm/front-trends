@@ -1,27 +1,27 @@
 {
-  "start": "2024-12-31",
-  "end": "2025-01-31",
+  "start": "2025-01-19",
+  "end": "2025-02-19",
   "package": "@visx/zoom",
   "downloads": [
     {
-      "downloads": 3155,
-      "day": "2024-12-31"
+      "downloads": 985,
+      "day": "2025-01-19"
     },
     {
-      "downloads": 9337,
-      "day": "2025-01-07"
+      "downloads": 1647,
+      "day": "2025-01-26"
     },
     {
-      "downloads": 9446,
-      "day": "2025-01-14"
+      "downloads": 1541,
+      "day": "2025-02-02"
     },
     {
-      "downloads": 8771,
-      "day": "2025-01-21"
+      "downloads": 1683,
+      "day": "2025-02-09"
     },
     {
-      "downloads": 10377,
-      "day": "2025-01-28"
+      "downloads": 1791,
+      "day": "2025-02-16"
     }
   ]
 }

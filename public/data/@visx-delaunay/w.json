@@ -1,39 +1,39 @@
 {
-  "start": "2025-01-24",
-  "end": "2025-01-31",
+  "start": "2025-02-12",
+  "end": "2025-02-19",
   "package": "@visx/delaunay",
   "downloads": [
     {
-      "downloads": 0,
-      "day": "2025-01-24"
-    },
-    {
-      "downloads": 610,
-      "day": "2025-01-25"
-    },
-    {
-      "downloads": 745,
-      "day": "2025-01-26"
-    },
-    {
       "downloads": 4610,
-      "day": "2025-01-27"
+      "day": "2025-02-12"
     },
     {
-      "downloads": 4721,
-      "day": "2025-01-28"
+      "downloads": 5543,
+      "day": "2025-02-13"
     },
     {
-      "downloads": 5254,
-      "day": "2025-01-29"
+      "downloads": 4607,
+      "day": "2025-02-14"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-30"
+      "downloads": 673,
+      "day": "2025-02-15"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-31"
+      "downloads": 795,
+      "day": "2025-02-16"
+    },
+    {
+      "downloads": 4895,
+      "day": "2025-02-17"
+    },
+    {
+      "downloads": 5835,
+      "day": "2025-02-18"
+    },
+    {
+      "downloads": 6335,
+      "day": "2025-02-19"
     }
   ]
 }

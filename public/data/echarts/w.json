@@ -1,39 +1,39 @@
 {
-  "start": "2025-01-24",
-  "end": "2025-01-31",
+  "start": "2025-02-12",
+  "end": "2025-02-19",
   "package": "echarts",
   "downloads": [
     {
-      "downloads": 0,
-      "day": "2025-01-24"
+      "downloads": 205704,
+      "day": "2025-02-12"
     },
     {
-      "downloads": 47673,
-      "day": "2025-01-25"
+      "downloads": 216357,
+      "day": "2025-02-13"
     },
     {
-      "downloads": 45534,
-      "day": "2025-01-26"
+      "downloads": 176455,
+      "day": "2025-02-14"
     },
     {
-      "downloads": 170440,
-      "day": "2025-01-27"
+      "downloads": 46003,
+      "day": "2025-02-15"
     },
     {
-      "downloads": 171933,
-      "day": "2025-01-28"
+      "downloads": 45755,
+      "day": "2025-02-16"
     },
     {
-      "downloads": 179368,
-      "day": "2025-01-29"
+      "downloads": 185338,
+      "day": "2025-02-17"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-30"
+      "downloads": 209582,
+      "day": "2025-02-18"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-31"
+      "downloads": 212547,
+      "day": "2025-02-19"
     }
   ]
 }

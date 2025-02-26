@@ -1,39 +1,39 @@
 {
-  "start": "2025-01-24",
-  "end": "2025-01-31",
+  "start": "2025-02-12",
+  "end": "2025-02-19",
   "package": "d3-quadtree",
   "downloads": [
     {
-      "downloads": 0,
-      "day": "2025-01-24"
+      "downloads": 733959,
+      "day": "2025-02-12"
     },
     {
-      "downloads": 140249,
-      "day": "2025-01-25"
+      "downloads": 754552,
+      "day": "2025-02-13"
     },
     {
-      "downloads": 133532,
-      "day": "2025-01-26"
+      "downloads": 627708,
+      "day": "2025-02-14"
     },
     {
-      "downloads": 654257,
-      "day": "2025-01-27"
+      "downloads": 150906,
+      "day": "2025-02-15"
     },
     {
-      "downloads": 686187,
-      "day": "2025-01-28"
+      "downloads": 149703,
+      "day": "2025-02-16"
     },
     {
-      "downloads": 690029,
-      "day": "2025-01-29"
+      "downloads": 606651,
+      "day": "2025-02-17"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-30"
+      "downloads": 731075,
+      "day": "2025-02-18"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-31"
+      "downloads": 756690,
+      "day": "2025-02-19"
     }
   ]
 }

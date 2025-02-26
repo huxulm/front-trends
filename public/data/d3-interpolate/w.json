@@ -1,39 +1,39 @@
 {
-  "start": "2025-01-24",
-  "end": "2025-01-31",
+  "start": "2025-02-12",
+  "end": "2025-02-19",
   "package": "d3-interpolate",
   "downloads": [
     {
-      "downloads": 0,
-      "day": "2025-01-24"
+      "downloads": 1842406,
+      "day": "2025-02-12"
     },
     {
-      "downloads": 353501,
-      "day": "2025-01-25"
+      "downloads": 1876501,
+      "day": "2025-02-13"
     },
     {
-      "downloads": 355847,
-      "day": "2025-01-26"
+      "downloads": 1568134,
+      "day": "2025-02-14"
     },
     {
-      "downloads": 1617249,
-      "day": "2025-01-27"
+      "downloads": 402417,
+      "day": "2025-02-15"
     },
     {
-      "downloads": 1735765,
-      "day": "2025-01-28"
+      "downloads": 423459,
+      "day": "2025-02-16"
     },
     {
-      "downloads": 1720317,
-      "day": "2025-01-29"
+      "downloads": 1536497,
+      "day": "2025-02-17"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-30"
+      "downloads": 1833264,
+      "day": "2025-02-18"
     },
     {
-      "downloads": 0,
-      "day": "2025-01-31"
+      "downloads": 1886798,
+      "day": "2025-02-19"
     }
   ]
 }
