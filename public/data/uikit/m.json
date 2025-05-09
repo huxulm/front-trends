@@ -1,27 +1,27 @@
 {
-  "start": "2025-01-19",
-  "end": "2025-02-19",
+  "start": "2025-04-02",
+  "end": "2025-05-02",
   "package": "uikit",
   "downloads": [
     {
-      "downloads": 1528,
-      "day": "2025-01-19"
+      "downloads": 2874,
+      "day": "2025-04-02"
     },
     {
-      "downloads": 1315,
-      "day": "2025-01-26"
+      "downloads": 3496,
+      "day": "2025-04-09"
     },
     {
-      "downloads": 1011,
-      "day": "2025-02-02"
+      "downloads": 3257,
+      "day": "2025-04-16"
     },
     {
-      "downloads": 1186,
-      "day": "2025-02-09"
+      "downloads": 3409,
+      "day": "2025-04-23"
     },
     {
-      "downloads": 1346,
-      "day": "2025-02-16"
+      "downloads": 2708,
+      "day": "2025-04-30"
     }
   ]
 }

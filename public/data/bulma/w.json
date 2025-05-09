@@ -1,39 +1,39 @@
 {
-  "start": "2025-02-12",
-  "end": "2025-02-19",
+  "start": "2025-04-25",
+  "end": "2025-05-02",
   "package": "bulma",
   "downloads": [
     {
-      "downloads": 36742,
-      "day": "2025-02-12"
+      "downloads": 28554,
+      "day": "2025-04-25"
     },
     {
-      "downloads": 37046,
-      "day": "2025-02-13"
+      "downloads": 8587,
+      "day": "2025-04-26"
     },
     {
-      "downloads": 29646,
-      "day": "2025-02-14"
+      "downloads": 9802,
+      "day": "2025-04-27"
     },
     {
-      "downloads": 8074,
-      "day": "2025-02-15"
+      "downloads": 37285,
+      "day": "2025-04-28"
     },
     {
-      "downloads": 9375,
-      "day": "2025-02-16"
+      "downloads": 33075,
+      "day": "2025-04-29"
     },
     {
-      "downloads": 31835,
-      "day": "2025-02-17"
+      "downloads": 35870,
+      "day": "2025-04-30"
     },
     {
-      "downloads": 35649,
-      "day": "2025-02-18"
+      "downloads": 22827,
+      "day": "2025-05-01"
     },
     {
-      "downloads": 36166,
-      "day": "2025-02-19"
+      "downloads": 23916,
+      "day": "2025-05-02"
     }
   ]
 }
